@@ -2,7 +2,8 @@
 
 [Live draft](https://wild-joy-project-draft.hiro-33e.workers.dev) · [GitHub source](https://github.com/hkuwana/wild-joy-project)
 
-A first-draft website for Alyssa Kuwana’s travel retreats: expressive typography,
+A first-draft website for Alyssa Kuwana’s travel retreats: playful Bree Serif and
+handwritten typography, an ocean–sand–hibiscus palette,
 original photography, pencil-style SVG studies, layered parallax photo prints,
 a readable Bali guide, and straightforward inquiries.
 

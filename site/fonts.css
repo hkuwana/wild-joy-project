@@ -27,23 +27,9 @@
   src: url(/assets/font-3.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Fraunces';
-  font-style: italic;
-  font-weight: 500;
-  font-display: swap;
-  src: url(/assets/font-4.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Fraunces';
+  font-family: 'Bree Serif';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-display: swap;
-  src: url(/assets/font-5.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Fraunces';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(/assets/font-6.ttf) format('truetype');
+  src: url('/assets/bree-serif.ttf') format('truetype');
 }

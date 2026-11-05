@@ -1,7 +1,7 @@
 // Original SVG studies: outlined forms, fine veins and graphite-like hatching.
 // All artwork is decorative; there are no external image or font dependencies.
 const f = n => Number(n.toFixed(2));
-const svg = (w,h,body) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" fill="none"><g stroke="#795a39" stroke-linecap="round" stroke-linejoin="round">${body}</g></svg>`;
+const svg = (w,h,body) => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}" fill="none"><g stroke="#477a74" stroke-linecap="round" stroke-linejoin="round">${body}</g></svg>`;
 const path = (d,width=1,opacity=.7) => `<path d="${d}" stroke-width="${width}" opacity="${opacity}"/>`;
 function palm(){
  let art=path('M74 713 C123 573 199 416 302 230 C339 163 370 110 423 48',2.2,.7);

@@ -31,3 +31,14 @@ Live update verification: 13 routes/assets matched the local build byte-for-byte
 including all four SVGs, Caveat, browser JS, and both stylesheets. An unknown route
 returned 404. The deployed page has no captured console errors; parallax offsets
 are applied under the production CSP, and the live motion toggle clears them.
+
+## Coastal typography and color update — November 5, 2026
+
+- User confirmed the Maui direction: ocean, sand, hibiscus. All trip content remains unchanged.
+- Bree Serif regular replaces the three Fraunces font files; Caveat normal provides handwritten emphasis, while DM Sans carries practical text.
+- Build and internal checks pass (113 references), with all six motion tests passing.
+- Rendered Home at 1440/760/390, Bali rooms at 320, About at 1100 and Contact at 390. No horizontal document overflow at these widths; navigation to rooms and keyboard focus on the closing action verified. No captured console errors.
+- New solid-color text pairs pass AA: body/sand 10.57:1, teal/sand 5.85:1, hibiscus/photo-paper 6.57:1, forest/coral 4.86:1. Closing keyboard focus uses forest on coral (4.86:1).
+- No physical-device or complete assistive-technology audit performed. The existing motion implementation is unchanged.
+
+Live coastal update: all 13 checked routes/assets matched the build byte-for-byte; unknown route returned 404. Current in-app view at 734px renders Bree Serif and teal correctly with no horizontal overflow or captured console errors.

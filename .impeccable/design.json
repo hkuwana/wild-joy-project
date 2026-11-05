@@ -1,175 +1,175 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-05T01:12:01.072030+00:00",
+  "generatedAt": "2026-11-05T14:29:04.124218+00:00",
   "title": "Design System: Wild Joy Project",
   "extensions": {
     "colorMeta": {
       "paper": {
         "role": "neutral",
-        "displayName": "Paper",
+        "displayName": "Warm sand",
         "tonalRamp": [
-          "oklch(15% 0.01516 90.23)",
-          "oklch(26.4% 0.01516 90.23)",
-          "oklch(37.9% 0.01516 90.23)",
-          "oklch(49.3% 0.01516 90.23)",
-          "oklch(60.7% 0.01516 90.23)",
-          "oklch(72.1% 0.01516 90.23)",
-          "oklch(83.6% 0.01516 90.23)",
-          "oklch(95% 0.01516 90.23)"
+          "oklch(15% 0.02084 79.10)",
+          "oklch(26.4% 0.02084 79.10)",
+          "oklch(37.9% 0.02084 79.10)",
+          "oklch(49.3% 0.02084 79.10)",
+          "oklch(60.7% 0.02084 79.10)",
+          "oklch(72.1% 0.02084 79.10)",
+          "oklch(83.6% 0.02084 79.10)",
+          "oklch(95% 0.02084 79.10)"
         ]
       },
       "ink": {
         "role": "neutral",
         "displayName": "Ink",
         "tonalRamp": [
-          "oklch(15% 0.02053 95.62)",
-          "oklch(26.4% 0.02053 95.62)",
-          "oklch(37.9% 0.02053 95.62)",
-          "oklch(49.3% 0.02053 95.62)",
-          "oklch(60.7% 0.02053 95.62)",
-          "oklch(72.1% 0.02053 95.62)",
-          "oklch(83.6% 0.02053 95.62)",
-          "oklch(95% 0.02053 95.62)"
+          "oklch(15% 0.03742 206.32)",
+          "oklch(26.4% 0.03742 206.32)",
+          "oklch(37.9% 0.03742 206.32)",
+          "oklch(49.3% 0.03742 206.32)",
+          "oklch(60.7% 0.03742 206.32)",
+          "oklch(72.1% 0.03742 206.32)",
+          "oklch(83.6% 0.03742 206.32)",
+          "oklch(95% 0.03742 206.32)"
         ]
       },
       "rust": {
         "role": "primary",
-        "displayName": "Rust",
+        "displayName": "Ocean teal (legacy rust alias)",
         "tonalRamp": [
-          "oklch(15% 0.12132 34.47)",
-          "oklch(26.4% 0.12132 34.47)",
-          "oklch(37.9% 0.12132 34.47)",
-          "oklch(49.3% 0.12132 34.47)",
-          "oklch(60.7% 0.12132 34.47)",
-          "oklch(72.1% 0.12132 34.47)",
-          "oklch(83.6% 0.12132 34.47)",
-          "oklch(95% 0.12132 34.47)"
+          "oklch(15% 0.07961 200.64)",
+          "oklch(26.4% 0.07961 200.64)",
+          "oklch(37.9% 0.07961 200.64)",
+          "oklch(49.3% 0.07961 200.64)",
+          "oklch(60.7% 0.07961 200.64)",
+          "oklch(72.1% 0.07961 200.64)",
+          "oklch(83.6% 0.07961 200.64)",
+          "oklch(95% 0.07961 200.64)"
         ]
       },
       "rose": {
         "role": "neutral",
-        "displayName": "Rose",
+        "displayName": "Coral (legacy rose alias)",
         "tonalRamp": [
-          "oklch(15% 0.05973 46.33)",
-          "oklch(26.4% 0.05973 46.33)",
-          "oklch(37.9% 0.05973 46.33)",
-          "oklch(49.3% 0.05973 46.33)",
-          "oklch(60.7% 0.05973 46.33)",
-          "oklch(72.1% 0.05973 46.33)",
-          "oklch(83.6% 0.05973 46.33)",
-          "oklch(95% 0.05973 46.33)"
+          "oklch(15% 0.07538 39.22)",
+          "oklch(26.4% 0.07538 39.22)",
+          "oklch(37.9% 0.07538 39.22)",
+          "oklch(49.3% 0.07538 39.22)",
+          "oklch(60.7% 0.07538 39.22)",
+          "oklch(72.1% 0.07538 39.22)",
+          "oklch(83.6% 0.07538 39.22)",
+          "oklch(95% 0.07538 39.22)"
         ]
       },
       "olive": {
         "role": "secondary",
-        "displayName": "Olive",
+        "displayName": "Seafoam (legacy olive alias)",
         "tonalRamp": [
-          "oklch(15% 0.03584 110.54)",
-          "oklch(26.4% 0.03584 110.54)",
-          "oklch(37.9% 0.03584 110.54)",
-          "oklch(49.3% 0.03584 110.54)",
-          "oklch(60.7% 0.03584 110.54)",
-          "oklch(72.1% 0.03584 110.54)",
-          "oklch(83.6% 0.03584 110.54)",
-          "oklch(95% 0.03584 110.54)"
+          "oklch(15% 0.02379 183.72)",
+          "oklch(26.4% 0.02379 183.72)",
+          "oklch(37.9% 0.02379 183.72)",
+          "oklch(49.3% 0.02379 183.72)",
+          "oklch(60.7% 0.02379 183.72)",
+          "oklch(72.1% 0.02379 183.72)",
+          "oklch(83.6% 0.02379 183.72)",
+          "oklch(95% 0.02379 183.72)"
         ]
       },
       "forest": {
         "role": "secondary",
-        "displayName": "Forest",
+        "displayName": "Deep teal (legacy forest alias)",
         "tonalRamp": [
-          "oklch(15% 0.03804 169.88)",
-          "oklch(26.4% 0.03804 169.88)",
-          "oklch(37.9% 0.03804 169.88)",
-          "oklch(49.3% 0.03804 169.88)",
-          "oklch(60.7% 0.03804 169.88)",
-          "oklch(72.1% 0.03804 169.88)",
-          "oklch(83.6% 0.03804 169.88)",
-          "oklch(95% 0.03804 169.88)"
+          "oklch(15% 0.06133 201.31)",
+          "oklch(26.4% 0.06133 201.31)",
+          "oklch(37.9% 0.06133 201.31)",
+          "oklch(49.3% 0.06133 201.31)",
+          "oklch(60.7% 0.06133 201.31)",
+          "oklch(72.1% 0.06133 201.31)",
+          "oklch(83.6% 0.06133 201.31)",
+          "oklch(95% 0.06133 201.31)"
         ]
       },
       "line": {
         "role": "neutral",
         "displayName": "Line",
         "tonalRamp": [
-          "oklch(15% 0.02736 80.23)",
-          "oklch(26.4% 0.02736 80.23)",
-          "oklch(37.9% 0.02736 80.23)",
-          "oklch(49.3% 0.02736 80.23)",
-          "oklch(60.7% 0.02736 80.23)",
-          "oklch(72.1% 0.02736 80.23)",
-          "oklch(83.6% 0.02736 80.23)",
-          "oklch(95% 0.02736 80.23)"
+          "oklch(15% 0.02471 180.51)",
+          "oklch(26.4% 0.02471 180.51)",
+          "oklch(37.9% 0.02471 180.51)",
+          "oklch(49.3% 0.02471 180.51)",
+          "oklch(60.7% 0.02471 180.51)",
+          "oklch(72.1% 0.02471 180.51)",
+          "oklch(83.6% 0.02471 180.51)",
+          "oklch(95% 0.02471 180.51)"
         ]
       },
       "rust-hover": {
         "role": "primary",
         "displayName": "Rust Hover",
         "tonalRamp": [
-          "oklch(15% 0.10163 33.84)",
-          "oklch(26.4% 0.10163 33.84)",
-          "oklch(37.9% 0.10163 33.84)",
-          "oklch(49.3% 0.10163 33.84)",
-          "oklch(60.7% 0.10163 33.84)",
-          "oklch(72.1% 0.10163 33.84)",
-          "oklch(83.6% 0.10163 33.84)",
-          "oklch(95% 0.10163 33.84)"
+          "oklch(15% 0.06631 202.15)",
+          "oklch(26.4% 0.06631 202.15)",
+          "oklch(37.9% 0.06631 202.15)",
+          "oklch(49.3% 0.06631 202.15)",
+          "oklch(60.7% 0.06631 202.15)",
+          "oklch(72.1% 0.06631 202.15)",
+          "oklch(83.6% 0.06631 202.15)",
+          "oklch(95% 0.06631 202.15)"
         ]
       },
       "link-hover": {
         "role": "neutral",
         "displayName": "Link Hover",
         "tonalRamp": [
-          "oklch(15% 0.07478 35.84)",
-          "oklch(26.4% 0.07478 35.84)",
-          "oklch(37.9% 0.07478 35.84)",
-          "oklch(49.3% 0.07478 35.84)",
-          "oklch(60.7% 0.07478 35.84)",
-          "oklch(72.1% 0.07478 35.84)",
-          "oklch(83.6% 0.07478 35.84)",
-          "oklch(95% 0.07478 35.84)"
+          "oklch(15% 0.06238 202.73)",
+          "oklch(26.4% 0.06238 202.73)",
+          "oklch(37.9% 0.06238 202.73)",
+          "oklch(49.3% 0.06238 202.73)",
+          "oklch(60.7% 0.06238 202.73)",
+          "oklch(72.1% 0.06238 202.73)",
+          "oklch(83.6% 0.06238 202.73)",
+          "oklch(95% 0.06238 202.73)"
         ]
       },
       "fit-surface": {
         "role": "neutral",
         "displayName": "Fit Surface",
         "tonalRamp": [
-          "oklch(15% 0.03187 56.56)",
-          "oklch(26.4% 0.03187 56.56)",
-          "oklch(37.9% 0.03187 56.56)",
-          "oklch(49.3% 0.03187 56.56)",
-          "oklch(60.7% 0.03187 56.56)",
-          "oklch(72.1% 0.03187 56.56)",
-          "oklch(83.6% 0.03187 56.56)",
-          "oklch(95% 0.03187 56.56)"
+          "oklch(15% 0.04382 54.87)",
+          "oklch(26.4% 0.04382 54.87)",
+          "oklch(37.9% 0.04382 54.87)",
+          "oklch(49.3% 0.04382 54.87)",
+          "oklch(60.7% 0.04382 54.87)",
+          "oklch(72.1% 0.04382 54.87)",
+          "oklch(83.6% 0.04382 54.87)",
+          "oklch(95% 0.04382 54.87)"
         ]
       },
       "itinerary-line": {
         "role": "neutral",
         "displayName": "Itinerary Line",
         "tonalRamp": [
-          "oklch(15% 0.03090 117.52)",
-          "oklch(26.4% 0.03090 117.52)",
-          "oklch(37.9% 0.03090 117.52)",
-          "oklch(49.3% 0.03090 117.52)",
-          "oklch(60.7% 0.03090 117.52)",
-          "oklch(72.1% 0.03090 117.52)",
-          "oklch(83.6% 0.03090 117.52)",
-          "oklch(95% 0.03090 117.52)"
+          "oklch(15% 0.03627 185.26)",
+          "oklch(26.4% 0.03627 185.26)",
+          "oklch(37.9% 0.03627 185.26)",
+          "oklch(49.3% 0.03627 185.26)",
+          "oklch(60.7% 0.03627 185.26)",
+          "oklch(72.1% 0.03627 185.26)",
+          "oklch(83.6% 0.03627 185.26)",
+          "oklch(95% 0.03627 185.26)"
         ]
       },
       "list-line": {
         "role": "neutral",
         "displayName": "List Line",
         "tonalRamp": [
-          "oklch(15% 0.02053 95.62 / 0.149)",
-          "oklch(26.4% 0.02053 95.62 / 0.149)",
-          "oklch(37.9% 0.02053 95.62 / 0.149)",
-          "oklch(49.3% 0.02053 95.62 / 0.149)",
-          "oklch(60.7% 0.02053 95.62 / 0.149)",
-          "oklch(72.1% 0.02053 95.62 / 0.149)",
-          "oklch(83.6% 0.02053 95.62 / 0.149)",
-          "oklch(95% 0.02053 95.62 / 0.149)"
+          "oklch(15% 0.03742 206.32 / 0.149)",
+          "oklch(26.4% 0.03742 206.32 / 0.149)",
+          "oklch(37.9% 0.03742 206.32 / 0.149)",
+          "oklch(49.3% 0.03742 206.32 / 0.149)",
+          "oklch(60.7% 0.03742 206.32 / 0.149)",
+          "oklch(72.1% 0.03742 206.32 / 0.149)",
+          "oklch(83.6% 0.03742 206.32 / 0.149)",
+          "oklch(95% 0.03742 206.32 / 0.149)"
         ]
       },
       "photo-white": {
@@ -218,14 +218,14 @@
         "role": "neutral",
         "displayName": "Print Paper",
         "tonalRamp": [
-          "oklch(15% 0.01226 91.51)",
-          "oklch(26.4% 0.01226 91.51)",
-          "oklch(37.9% 0.01226 91.51)",
-          "oklch(49.3% 0.01226 91.51)",
-          "oklch(60.7% 0.01226 91.51)",
-          "oklch(72.1% 0.01226 91.51)",
-          "oklch(83.6% 0.01226 91.51)",
-          "oklch(95% 0.01226 91.51)"
+          "oklch(15% 0.01073 95.16)",
+          "oklch(26.4% 0.01073 95.16)",
+          "oklch(37.9% 0.01073 95.16)",
+          "oklch(49.3% 0.01073 95.16)",
+          "oklch(60.7% 0.01073 95.16)",
+          "oklch(72.1% 0.01073 95.16)",
+          "oklch(83.6% 0.01073 95.16)",
+          "oklch(95% 0.01073 95.16)"
         ]
       },
       "print-shadow": {
@@ -274,42 +274,42 @@
         "role": "neutral",
         "displayName": "Ticket Line",
         "tonalRamp": [
-          "oklch(15% 0.04456 65.88)",
-          "oklch(26.4% 0.04456 65.88)",
-          "oklch(37.9% 0.04456 65.88)",
-          "oklch(49.3% 0.04456 65.88)",
-          "oklch(60.7% 0.04456 65.88)",
-          "oklch(72.1% 0.04456 65.88)",
-          "oklch(83.6% 0.04456 65.88)",
-          "oklch(95% 0.04456 65.88)"
+          "oklch(15% 0.04490 181.32)",
+          "oklch(26.4% 0.04490 181.32)",
+          "oklch(37.9% 0.04490 181.32)",
+          "oklch(49.3% 0.04490 181.32)",
+          "oklch(60.7% 0.04490 181.32)",
+          "oklch(72.1% 0.04490 181.32)",
+          "oklch(83.6% 0.04490 181.32)",
+          "oklch(95% 0.04490 181.32)"
         ]
       },
       "motion-hover": {
         "role": "neutral",
         "displayName": "Motion Hover",
         "tonalRamp": [
-          "oklch(15% 0.02181 83.26)",
-          "oklch(26.4% 0.02181 83.26)",
-          "oklch(37.9% 0.02181 83.26)",
-          "oklch(49.3% 0.02181 83.26)",
-          "oklch(60.7% 0.02181 83.26)",
-          "oklch(72.1% 0.02181 83.26)",
-          "oklch(83.6% 0.02181 83.26)",
-          "oklch(95% 0.02181 83.26)"
+          "oklch(15% 0.01660 156.90)",
+          "oklch(26.4% 0.01660 156.90)",
+          "oklch(37.9% 0.01660 156.90)",
+          "oklch(49.3% 0.01660 156.90)",
+          "oklch(60.7% 0.01660 156.90)",
+          "oklch(72.1% 0.01660 156.90)",
+          "oklch(83.6% 0.01660 156.90)",
+          "oklch(95% 0.01660 156.90)"
         ]
       },
       "sketch-pencil": {
         "role": "neutral",
-        "displayName": "Sketch Pencil",
+        "displayName": "Muted teal pencil",
         "tonalRamp": [
-          "oklch(15% 0.06272 67.24)",
-          "oklch(26.4% 0.06272 67.24)",
-          "oklch(37.9% 0.06272 67.24)",
-          "oklch(49.3% 0.06272 67.24)",
-          "oklch(60.7% 0.06272 67.24)",
-          "oklch(72.1% 0.06272 67.24)",
-          "oklch(83.6% 0.06272 67.24)",
-          "oklch(95% 0.06272 67.24)"
+          "oklch(15% 0.05596 186.09)",
+          "oklch(26.4% 0.05596 186.09)",
+          "oklch(37.9% 0.05596 186.09)",
+          "oklch(49.3% 0.05596 186.09)",
+          "oklch(60.7% 0.05596 186.09)",
+          "oklch(72.1% 0.05596 186.09)",
+          "oklch(83.6% 0.05596 186.09)",
+          "oklch(95% 0.05596 186.09)"
         ]
       },
       "ocean-surface": {
@@ -367,6 +367,34 @@
           "oklch(83.6% 0.03177 178.47 / 0.4)",
           "oklch(95% 0.03177 178.47 / 0.4)"
         ]
+      },
+      "hibiscus": {
+        "role": "secondary",
+        "displayName": "Hibiscus",
+        "tonalRamp": [
+          "oklch(15% 0.15211 3.74)",
+          "oklch(26.4% 0.15211 3.74)",
+          "oklch(37.9% 0.15211 3.74)",
+          "oklch(49.3% 0.15211 3.74)",
+          "oklch(60.7% 0.15211 3.74)",
+          "oklch(72.1% 0.15211 3.74)",
+          "oklch(83.6% 0.15211 3.74)",
+          "oklch(95% 0.15211 3.74)"
+        ]
+      },
+      "hero-sand": {
+        "role": "secondary",
+        "displayName": "Hero Sand",
+        "tonalRamp": [
+          "oklch(15% 0.03319 77.61)",
+          "oklch(26.4% 0.03319 77.61)",
+          "oklch(37.9% 0.03319 77.61)",
+          "oklch(49.3% 0.03319 77.61)",
+          "oklch(60.7% 0.03319 77.61)",
+          "oklch(72.1% 0.03319 77.61)",
+          "oklch(83.6% 0.03319 77.61)",
+          "oklch(95% 0.03319 77.61)"
+        ]
       }
     },
     "typographyMeta": {
@@ -380,7 +408,7 @@
       },
       "handwriting": {
         "displayName": "Handwritten accent",
-        "purpose": "Caveat 500 for invitations and discovery cues; not practical body text."
+        "purpose": "Caveat normal 500 for H1/H2, ocean and belief emphasis, captions, invitation and discovery cues; not practical body text."
       },
       "print-caption": {
         "displayName": "Print caption",
@@ -467,15 +495,15 @@
       "refersTo": "button-primary",
       "description": "Navigation or inquiry action; no booking state implied.",
       "html": "<a class=\"ds-button ds-icon\" href=\"#example\">Explore rooms &amp; prices<svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></a>",
-      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:24px;min-height:52px;padding:14px 25px;background:var(--rust,#913b27);border:1px solid var(--rust,#913b27);border-radius:3px;color:var(--paper,#f8f4e9);text-decoration:none;font:500 16px/1.4 var(--sans,\"DM Sans\",sans-serif);transition:background .2s}.ds-button:hover{background:#702b1c}.ds-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex:none}:focus-visible{outline:3px solid var(--rust,#913b27);outline-offset:6px}@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}"
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:24px;min-height:52px;padding:14px 25px;background:var(--rust,#096b70);border:1px solid var(--rust,#096b70);border-radius:3px;color:var(--paper,#fff6e8);text-decoration:none;font:500 16px/1.4 var(--sans,\"DM Sans\",sans-serif);transition:background .2s}.ds-button:hover{background:#075358}.ds-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex:none}:focus-visible{outline:3px solid var(--rust,#096b70);outline-offset:6px}@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}"
     },
     {
-      "name": "Light button on closing surface",
+      "name": "Closing button on coral",
       "kind": "button",
-      "refersTo": "button-light",
-      "description": "Inverse invitation with contextually light keyboard focus.",
+      "refersTo": "button-closing",
+      "description": "Ocean-teal action on coral with a deep-teal keyboard outline.",
       "html": "<div class=\"ds-closing\"><a class=\"ds-button ds-light ds-icon\" href=\"#example\">Explore Bali with me<svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></a></div>",
-      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:24px;min-height:52px;padding:14px 25px;background:var(--rust,#913b27);border:1px solid var(--rust,#913b27);border-radius:3px;color:var(--paper,#f8f4e9);text-decoration:none;font:500 16px/1.4 var(--sans,\"DM Sans\",sans-serif);transition:background .2s}.ds-button:hover{background:#702b1c}.ds-closing{background:var(--rust,#913b27);padding:24px}.ds-light{background:var(--paper,#f8f4e9);border-color:var(--paper,#f8f4e9);color:var(--rust,#913b27)}.ds-light:hover{background:var(--rose,#e6b9a4);border-color:var(--rose,#e6b9a4)}.ds-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex:none}:focus-visible{outline:3px solid var(--rust,#913b27);outline-offset:6px}.ds-closing :focus-visible{outline-color:var(--paper,#f8f4e9)}@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}"
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:24px;min-height:52px;padding:14px 25px;background:var(--rust,#096b70);border:1px solid var(--rust,#096b70);border-radius:3px;color:var(--paper,#fff6e8);text-decoration:none;font:500 16px/1.4 var(--sans,\"DM Sans\",sans-serif);transition:background .2s}.ds-button:hover{background:#075358}.ds-closing{background:var(--rose,#f4b8a4);color:var(--forest,#18565a);padding:24px}.ds-light{background:var(--rust,#096b70);border-color:var(--rust,#096b70);color:var(--paper,#fff6e8)}.ds-light:hover{background:#075358;border-color:#075358}.ds-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex:none}:focus-visible{outline:3px solid var(--rust,#096b70);outline-offset:6px}.ds-closing :focus-visible{outline-color:var(--forest,#18565a)}@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}"
     },
     {
       "name": "Text link",
@@ -483,14 +511,14 @@
       "refersTo": "text-link",
       "description": "Underlined secondary action with arrow.",
       "html": "<a class=\"ds-link ds-icon\" href=\"#example\">The story behind Wild Joy<svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></a>",
-      "css": ".ds-link{display:inline-flex;align-items:center;gap:12px;padding:8px 0;border:0;border-bottom:1px solid currentColor;background:none;text-decoration:none;color:var(--rust,#913b27);font:500 16px/1.5 var(--sans,\"DM Sans\",sans-serif)}.ds-link:hover{color:#602f22}.ds-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex:none}:focus-visible{outline:3px solid var(--rust,#913b27);outline-offset:6px}"
+      "css": ".ds-link{display:inline-flex;align-items:center;gap:12px;padding:8px 0;border:0;border-bottom:1px solid currentColor;background:none;text-decoration:none;color:var(--rust,#096b70);font:500 16px/1.5 var(--sans,\"DM Sans\",sans-serif)}.ds-link:hover{color:#084d52}.ds-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex:none}:focus-visible{outline:3px solid var(--rust,#096b70);outline-offset:6px}"
     },
     {
       "name": "Main navigation",
       "kind": "nav",
       "description": "Visible current-page state and full-width mobile row.",
       "html": "<nav class=\"ds-nav\" aria-label=\"Example navigation\"><a href=\"#home\" aria-current=\"page\">Home</a><a href=\"#bali\">Bali 2027</a><a href=\"#about\">Meet Alyssa</a><a href=\"#contact\">Get in touch</a></nav>",
-      "css": ".ds-nav{display:flex;gap:30px;color:var(--ink,#3b382c);font-family:var(--sans,\"DM Sans\",sans-serif)}.ds-nav a{color:inherit;padding:7px 0;text-decoration:none;font-size:.92rem;border-bottom:1px solid transparent}.ds-nav a:hover,.ds-nav a[aria-current]{border-color:var(--rust,#913b27);color:var(--rust,#913b27)}:focus-visible{outline:3px solid var(--rust,#913b27);outline-offset:6px}@media(max-width:1100px){.ds-nav{gap:20px}}@media(max-width:760px){.ds-nav{width:100%;justify-content:space-between;gap:12px;border-top:1px solid var(--line,#d6cbb9);padding-top:10px}.ds-nav a{font-size:.84rem}}"
+      "css": ".ds-nav{display:flex;gap:30px;color:var(--ink,#203f43);font-family:var(--sans,\"DM Sans\",sans-serif)}.ds-nav a{color:inherit;padding:7px 0;text-decoration:none;font-size:.92rem;border-bottom:1px solid transparent}.ds-nav a:hover,.ds-nav a[aria-current]{border-color:var(--rust,#096b70);color:var(--rust,#096b70)}:focus-visible{outline:3px solid var(--rust,#096b70);outline-offset:6px}@media(max-width:1100px){.ds-nav{gap:20px}}@media(max-width:760px){.ds-nav{width:100%;justify-content:space-between;gap:12px;border-top:1px solid var(--line,#b9cfca);padding-top:10px}.ds-nav a{font-size:.84rem}}"
     },
     {
       "name": "Journal invitation ticket",
@@ -498,14 +526,14 @@
       "refersTo": "journal-ticket",
       "description": "Stationary ruled invitation accompanying the layered photo scene; layout percentages are relative to that scene.",
       "html": "<a class=\"ds-ticket\" href=\"#bali\"><span class=\"ds-hand\">You’re invited...</span><strong>Bali, May 2027</strong><span>8 days. Up to 8 women.<svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></span></a>",
-      "css": ".ds-ticket{display:block;width:24%;padding:18px 0 18px 18px;color:var(--rust,#913b27);text-decoration:none;border-top:1px solid #bca38b;border-bottom:1px solid #bca38b;font-family:var(--sans,\"DM Sans\",sans-serif)}.ds-hand{font:500 1.9rem/1.2 var(--hand,\"Caveat\",cursive)}.ds-ticket strong{display:block;font:500 1.8rem/1.4 var(--serif,\"Fraunces\",Georgia,serif);margin:6px 0 12px}.ds-ticket>span:last-child{display:flex;align-items:center;justify-content:space-between;font-size:.82rem}.ds-ticket:hover strong{text-decoration:underline;text-underline-offset:6px}.ds-ticket svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex:none}:focus-visible{outline:3px solid var(--rust,#913b27);outline-offset:6px}@media(max-width:1100px){.ds-ticket{width:26%}.ds-ticket strong{font-size:1.5rem}.ds-ticket>span:last-child{font-size:.74rem}}@media(max-width:760px){.ds-ticket{width:49%;padding:12px 0}.ds-ticket .ds-hand{font-size:1.5rem}.ds-ticket strong{font-size:1.25rem;margin:5px 0 8px}.ds-ticket>span:last-child{font-size:.66rem;gap:5px}.ds-ticket svg{width:16px;height:16px}}"
+      "css": ":host{font-synthesis:none}.ds-ticket{display:block;width:24%;padding:18px 0 18px 18px;color:var(--rust,#096b70);text-decoration:none;border-top:1px solid #82aaa2;border-bottom:1px solid #82aaa2;font-family:var(--sans,\"DM Sans\",sans-serif)}.ds-hand{font:500 1.9rem/1.2 var(--hand,\"Caveat\",cursive)}.ds-ticket strong{display:block;font:500 1.8rem/1.4 var(--serif,\"Bree Serif\",Georgia,serif);margin:6px 0 12px}.ds-ticket>span:last-child{display:flex;align-items:center;justify-content:space-between;font-size:.82rem}.ds-ticket:hover strong{text-decoration:underline;text-underline-offset:6px}.ds-ticket svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex:none}:focus-visible{outline:3px solid var(--rust,#096b70);outline-offset:6px}@media(max-width:1100px){.ds-ticket{width:26%}.ds-ticket strong{font-size:1.5rem}.ds-ticket>span:last-child{font-size:.74rem}}@media(max-width:760px){.ds-ticket{width:50%;padding:12px 0}.ds-ticket .ds-hand{font-size:1.5rem}.ds-ticket strong{font-size:1.25rem;margin:5px 0 8px}.ds-ticket>span:last-child{font-size:.76rem;gap:5px;flex-wrap:wrap}.ds-ticket svg{width:16px;height:16px}}"
     },
     {
       "name": "FAQ disclosure",
       "kind": "custom",
       "description": "Native details with a plus indicator that becomes a minus.",
       "html": "<details class=\"ds-faq\"><summary>Questions about Bali?<span class=\"ds-plus\" aria-hidden=\"true\"></span></summary><p>Contact Alyssa to talk through the retreat.</p></details>",
-      "css": ".ds-faq{color:var(--ink,#3b382c);font:16px/1.65 var(--sans,\"DM Sans\",sans-serif);border-block:1px solid var(--line,#d6cbb9)}.ds-faq summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:1.04rem;padding:23px 0}.ds-faq summary::-webkit-details-marker{display:none}.ds-faq p{margin:0;font-size:.94rem;padding:0 28px 25px 0}.ds-plus{position:relative;width:16px;height:16px;display:block;flex:none}.ds-plus::before,.ds-plus::after{content:\"\";position:absolute;left:0;right:0;top:7px;height:1px;background:currentColor}.ds-plus::after{transform:rotate(90deg)}.ds-faq[open] .ds-plus::after{transform:rotate(0)}:focus-visible{outline:3px solid var(--rust,#913b27);outline-offset:6px}"
+      "css": ".ds-faq{color:var(--ink,#203f43);font:16px/1.65 var(--sans,\"DM Sans\",sans-serif);border-block:1px solid var(--line,#b9cfca)}.ds-faq summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:1.04rem;padding:23px 0}.ds-faq summary::-webkit-details-marker{display:none}.ds-faq p{margin:0;font-size:.94rem;padding:0 28px 25px 0}.ds-plus{position:relative;width:16px;height:16px;display:block;flex:none}.ds-plus::before,.ds-plus::after{content:\"\";position:absolute;left:0;right:0;top:7px;height:1px;background:currentColor}.ds-plus::after{transform:rotate(90deg)}.ds-faq[open] .ds-plus::after{transform:rotate(0)}:focus-visible{outline:3px solid var(--rust,#096b70);outline-offset:6px}"
     },
     {
       "name": "Decorative motion control",
@@ -513,15 +541,15 @@
       "refersTo": "motion-control",
       "description": "Style specimen; the app controller owns persisted on/off and system-reduced states. Reduced state is disabled.",
       "html": "<button class=\"ds-motion\" type=\"button\" aria-pressed=\"true\" aria-label=\"Turn off decorative motion\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path class=\"ds-pause\" d=\"M9 6v12M15 6v12\"/><path class=\"ds-play\" d=\"m9 6 9 6-9 6Z\"/></svg><span>Motion on</span></button>",
-      "css": ".ds-motion{display:inline-flex;align-items:center;gap:5px;padding:7px 9px;min-height:40px;border:1px solid var(--line,#d6cbb9);border-radius:3px;background:transparent;color:var(--ink,#3b382c);font:.72rem/1.65 var(--sans,\"DM Sans\",sans-serif);white-space:nowrap;cursor:pointer}.ds-motion:hover{background:#eee6d7}.ds-motion svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.ds-play{display:none}.ds-motion[aria-pressed=false] .ds-pause{display:none}.ds-motion[aria-pressed=false] .ds-play{display:block}.ds-motion:disabled{cursor:default;opacity:.8}:focus-visible{outline:3px solid var(--rust,#913b27);outline-offset:6px}@media(max-width:760px){.ds-motion{min-height:38px;font-size:.67rem;padding:5px 7px}}"
+      "css": ".ds-motion{display:inline-flex;align-items:center;gap:5px;padding:7px 9px;min-height:40px;border:1px solid var(--line,#b9cfca);border-radius:3px;background:transparent;color:var(--ink,#203f43);font:.72rem/1.65 var(--sans,\"DM Sans\",sans-serif);white-space:nowrap;cursor:pointer}.ds-motion:hover{background:#e2eee6}.ds-motion svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.ds-play{display:none}.ds-motion[aria-pressed=false] .ds-pause{display:none}.ds-motion[aria-pressed=false] .ds-play{display:block}.ds-motion:disabled{cursor:default;opacity:.8}:focus-visible{outline:3px solid var(--rust,#096b70);outline-offset:6px}@media(max-width:760px){.ds-motion{min-height:38px;font-size:.67rem;padding:5px 7px}}"
     }
   ],
   "narrative": {
     "northStar": "Illustrated travel journal",
-    "overview": "The implemented illustrated travel journal builds on the original photographic travel-correspondence direction: expressive serif headings, warm paper surfaces, and personal invitations. Source photographs now appear as layered framed prints with handwritten captions, original pencil-style SVG studies, and bounded scroll-linked depth. Practical retreat content remains still and uses familiar web patterns.\n\nThis remains a reversible first draft. Hiro explicitly requested the added visual impact, parallax, and pencil-sketch SVG direction; Alyssa has not reviewed the final brand implementation. PRODUCT.md remains the product authority; docs/first-draft-brief.md and docs/motion-direction.md hold the surface brief. This snapshot was extracted from site/styles.css, site/fonts.css, site/journal.css, site/app.js, scripts/illustrations.mjs, and scripts/build.mjs on November 4, 2026. This documentation pass did not inspect rendered pages.\n\nSidecar tonal ramps are synthesized OKLCH panel previews, not additional implemented CSS tokens or approved palette choices. Component snippets retain CSS variable references with extracted fallback values. Text is illustrative where a snippet requires sample content.",
+    "overview": "The implemented illustrated travel journal builds on the original photographic travel-correspondence direction: expressive serif headings, warm paper surfaces, and personal invitations. Source photographs now appear as layered framed prints with handwritten captions, original pencil-style SVG studies, and bounded scroll-linked depth. The approved Maui direction uses ocean teal, sand, hibiscus, seafoam, and coral; it changes the visual atmosphere, not the Bali retreat location or facts. Practical retreat content remains still and uses familiar web patterns.\n\nThis remains a reversible first draft. Hiro explicitly requested the added visual impact, parallax, and pencil-sketch SVG direction; Alyssa has not reviewed the final brand implementation. PRODUCT.md remains the product authority; docs/first-draft-brief.md, docs/motion-direction.md, and docs/coastal-direction.md hold the surface briefs. This snapshot was extracted from site/styles.css, site/fonts.css, site/journal.css, site/app.js, scripts/illustrations.mjs, and scripts/build.mjs on November 5, 2026. This documentation pass did not inspect rendered pages.\n\nSidecar tonal ramps are synthesized OKLCH panel previews, not additional implemented CSS tokens or approved palette choices. Component snippets retain CSS variable references with extracted fallback values. Text is illustrative where a snippet requires sample content.",
     "keyCharacteristics": [
       "Source photography framed as overlapping prints, with generous editorial spacing.",
-      "Fraunces headings and DM Sans body copy, with Caveat reserved for handwritten accents.",
+      "Bree Serif headings and DM Sans body copy, with Caveat for normal handwritten emphasis and captions.",
       "Original pencil studies of a palm, shell, sun, and waves.",
       "Bounded decorative parallax with a persistent control and system reduced-motion priority.",
       "Conventional navigation, native disclosure controls, and contextual keyboard focus."
@@ -529,7 +557,7 @@
     "rules": [
       {
         "name": "The Contextual Focus Rule",
-        "body": "Use a rust outline on the light surfaces and a paper outline inside the rust closing section; retain the 3px outline and 6px offset.",
+        "body": "Use ocean teal (`--rust`) outlines on light surfaces and deep teal (`--forest`) outlines inside the coral closing section; retain the 3px outline and 6px offset.",
         "section": "colors"
       },
       {
@@ -548,7 +576,7 @@
     "donts": [
       "Don't treat the MIT implementation license as permission to relicense the photos or source text.",
       "Don't add booking, payment, newsletter, or availability states that have no implementation or verified source.",
-      "Don't replace contextual focus outlines with a single color that disappears on the rust closing section.",
+      "Don't replace the deep-teal closing focus outline with a pale outline that disappears on coral.",
       "Don't turn these observed choices into permanent brand commitments without review.",
       "Don't add scroll hijacking, autoplay loops, moving practical information, or fake torn-paper edges to this implementation."
     ]

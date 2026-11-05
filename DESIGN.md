@@ -2,51 +2,53 @@
 name: Wild Joy Project
 description: Implemented first-draft design for travel retreats with Alyssa Kuwana
 colors:
-  paper: "#f8f4e9"
-  ink: "#3b382c"
-  rust: "#913b27"
-  rose: "#e6b9a4"
-  olive: "#e5e7cc"
-  forest: "#304c42"
-  line: "#d6cbb9"
-  rust-hover: "#702b1c"
-  link-hover: "#602f22"
-  fit-surface: "#ebd5c6"
-  itinerary-line: "#b6bba5"
-  list-line: "#3b382c26"
+  paper: "#fff6e8"
+  ink: "#203f43"
+  rust: "#096b70"
+  rose: "#f4b8a4"
+  olive: "#d8eeea"
+  forest: "#18565a"
+  line: "#b9cfca"
+  rust-hover: "#075358"
+  link-hover: "#084d52"
+  fit-surface: "#f8d9c5"
+  itinerary-line: "#9ebfba"
+  list-line: "#203f4326"
   photo-white: "white"
   dialog-backdrop: "#17201ce6"
   print-black: "black"
-  print-paper: "#fffcf3"
+  print-paper: "#fffdf5"
   print-shadow: "#4b362321"
   pillar-shadow: "#4b362314"
   portrait-shadow: "#4b36231c"
-  ticket-line: "#bca38b"
-  motion-hover: "#eee6d7"
-  sketch-pencil: "#795a39"
+  ticket-line: "#82aaa2"
+  motion-hover: "#e2eee6"
+  sketch-pencil: "#477a74"
   ocean-surface: "#164d59"
   ocean-text: "#fffdf4"
   ocean-overlay: "#071f2b4d"
   ocean-text-shadow: "#11292466"
+  hibiscus: "#a33158"
+  hero-sand: "#fff0da"
 typography:
   display:
-    fontFamily: "Fraunces, Georgia, serif"
+    fontFamily: "Bree Serif, Georgia, serif"
     fontSize: "clamp(3.4rem,6.3vw,6rem)"
-    fontWeight: 500
+    fontWeight: 400
     lineHeight: 1.07
-    letterSpacing: "-.035em"
+    letterSpacing: "-.015em"
   headline:
-    fontFamily: "Fraunces, Georgia, serif"
+    fontFamily: "Bree Serif, Georgia, serif"
     fontSize: "clamp(2.5rem,4.2vw,4.6rem)"
-    fontWeight: 500
+    fontWeight: 400
     lineHeight: 1.07
-    letterSpacing: "-.035em"
+    letterSpacing: "-.015em"
   title:
-    fontFamily: "Fraunces, Georgia, serif"
+    fontFamily: "Bree Serif, Georgia, serif"
     fontSize: "clamp(1.8rem,2.4vw,2.7rem)"
-    fontWeight: 500
+    fontWeight: 400
     lineHeight: 1.07
-    letterSpacing: "-.035em"
+    letterSpacing: "-.015em"
   body:
     fontFamily: "DM Sans, sans-serif"
     fontSize: "16px"
@@ -64,11 +66,11 @@ typography:
     lineHeight: 1.8
     letterSpacing: ".14em"
   brand:
-    fontFamily: "Fraunces, Georgia, serif"
+    fontFamily: "Bree Serif, Georgia, serif"
     fontSize: "2.65rem"
-    fontWeight: 500
+    fontWeight: 400
     lineHeight: 1
-    letterSpacing: "-.055em"
+    letterSpacing: "-.025em"
   handwriting:
     fontFamily: "Caveat, cursive"
     fontSize: "1.9rem"
@@ -80,11 +82,11 @@ typography:
     fontWeight: 500
     lineHeight: 1.2
   journal-display:
-    fontFamily: "Fraunces, Georgia, serif"
+    fontFamily: "Bree Serif, Georgia, serif"
     fontSize: "clamp(3.5rem,6.8vw,6rem)"
-    fontWeight: 500
-    lineHeight: 1.07
-    letterSpacing: "-.035em"
+    fontWeight: 400
+    lineHeight: 1.08
+    letterSpacing: "-.015em"
 rounded:
   button: "3px"
   list-marker: "50%"
@@ -117,6 +119,16 @@ components:
     textColor: "{colors.rust}"
     padding: "18px 0 18px 18px"
     width: "24%"
+  button-closing:
+    backgroundColor: "{colors.rust}"
+    textColor: "{colors.paper}"
+    rounded: "{rounded.button}"
+    padding: "14px 25px"
+  button-closing-hover:
+    backgroundColor: "{colors.rust-hover}"
+  closing:
+    backgroundColor: "{colors.rose}"
+    textColor: "{colors.forest}"
   photo-print:
     backgroundColor: "{colors.print-paper}"
     padding: "13px 13px 0"
@@ -141,42 +153,45 @@ components:
 
 **Creative North Star: "Illustrated travel journal"**
 
-The implemented illustrated travel journal builds on the original photographic travel-correspondence direction: expressive serif headings, warm paper surfaces, and personal invitations. Source photographs now appear as layered framed prints with handwritten captions, original pencil-style SVG studies, and bounded scroll-linked depth. Practical retreat content remains still and uses familiar web patterns.
+The implemented illustrated travel journal builds on the original photographic travel-correspondence direction: expressive serif headings, warm paper surfaces, and personal invitations. Source photographs now appear as layered framed prints with handwritten captions, original pencil-style SVG studies, and bounded scroll-linked depth. The approved Maui direction uses ocean teal, sand, hibiscus, seafoam, and coral; it changes the visual atmosphere, not the Bali retreat location or facts. Practical retreat content remains still and uses familiar web patterns.
 
-This remains a reversible first draft. Hiro explicitly requested the added visual impact, parallax, and pencil-sketch SVG direction; Alyssa has not reviewed the final brand implementation. PRODUCT.md remains the product authority; docs/first-draft-brief.md and docs/motion-direction.md hold the surface brief. This snapshot was extracted from site/styles.css, site/fonts.css, site/journal.css, site/app.js, scripts/illustrations.mjs, and scripts/build.mjs on November 4, 2026. This documentation pass did not inspect rendered pages.
+This remains a reversible first draft. Hiro explicitly requested the added visual impact, parallax, and pencil-sketch SVG direction; Alyssa has not reviewed the final brand implementation. PRODUCT.md remains the product authority; docs/first-draft-brief.md, docs/motion-direction.md, and docs/coastal-direction.md hold the surface briefs. This snapshot was extracted from site/styles.css, site/fonts.css, site/journal.css, site/app.js, scripts/illustrations.mjs, and scripts/build.mjs on November 5, 2026. This documentation pass did not inspect rendered pages.
 
 Sidecar tonal ramps are synthesized OKLCH panel previews, not additional implemented CSS tokens or approved palette choices. Component snippets retain CSS variable references with extracted fallback values. Text is illustrative where a snippet requires sample content.
 
 **Key Characteristics:**
 
 - Source photography framed as overlapping prints, with generous editorial spacing.
-- Fraunces headings and DM Sans body copy, with Caveat reserved for handwritten accents.
+- Bree Serif headings and DM Sans body copy, with Caveat for normal handwritten emphasis and captions.
 - Original pencil studies of a palm, shell, sun, and waves.
 - Bounded decorative parallax with a persistent control and system reduced-motion priority.
 - Conventional navigation, native disclosure controls, and contextual keyboard focus.
 
 ## Colors
 
-The existing palette combines warm ivory and rust with muted green and blush section surfaces. Frontmatter values are the normative snapshot; CSS remains the implementation source.
+The approved coastal palette combines sun-warmed sand, deep ocean teal, hibiscus emphasis, seafoam sections, and coral invitations. Frontmatter values are the normative snapshot; CSS remains the implementation source. Technical names are retained for compatibility: `rust` now means ocean teal, `olive` means seafoam, `rose` means coral, and `forest` means deep teal. These names do not describe the current hues.
 
-- **Primary — Rust:** headings, links, primary actions, brand, and the closing invitation. The darker rust and link-hover values belong to their respective hover states.
-- **Secondary — Olive and forest:** olive backgrounds with forest headings distinguish retreat, itinerary, and belief sections.
-- **Supporting — Rose and fit surface:** rose is used for selection and light-button hover; the separate pale blush fit surface contains suitability guidance.
-- **Neutral — Paper, ink, and line:** the default canvas, body text, and fine dividers. Itinerary and list dividers use their own observed colors.
-- **Print and sketch colors:** print-paper is the off-white photo border, with separate translucent brown shadows for hero prints, pillar prints, and the portrait. Ticket-line supplies the fine invitation rules; sketch-pencil colors the original line artwork.
-- **Ocean and overlay colors:** ocean-surface is the panorama fallback, ocean-text its light typography, ocean-overlay the photographic tint, and ocean-text-shadow the caption contrast treatment. The wave study is filtered to white. Dialog-backdrop dims the enlarged-image viewer; print uses white and black. Motion-hover is the control hover fill.
+- **Ocean teal (`rust`) and deep teal (`forest`):** headings, navigation, primary actions, brand, and supporting section titles. `rust-hover` and `link-hover` are darker ocean-teal interaction states.
+- **Sand (`paper`) and hero-sand:** the main page and warmer journal opening. Ink is a dark blue-green; line and itinerary-line are soft sea-glass dividers.
+- **Seafoam (`olive`):** retreat, itinerary, and belief section backgrounds.
+- **Coral (`rose`) and fit-surface:** coral is the closing background and selection color; the lighter peach fit surface contains suitability guidance. The closing uses deep-teal text and ocean-teal buttons with sand text.
+- **Hibiscus:** home hero handwritten emphasis, intro/host emphasis, pillar titles, and framed-photo captions. Other H1/H2 handwritten emphasis inherits its section color.
+- **Print and sketch colors:** print-paper borders the photographs; translucent brown frame shadows remain. Ticket-line is muted sea-glass; sketch-pencil is muted teal. Motion-hover is a pale seafoam fill.
+- **Ocean and overlay colors:** ocean-surface remains the panorama fallback, ocean-text its light typography, ocean-overlay the photographic tint, and ocean-text-shadow the contrast treatment. Waves are filtered white. Dialog-backdrop dims the photo viewer; print uses white and black.
 
-**The Contextual Focus Rule.** Use a rust outline on the light surfaces and a paper outline inside the rust closing section; retain the 3px outline and 6px offset.
+**The Contextual Focus Rule.** Use ocean teal (`--rust`) outlines on light surfaces and deep teal (`--forest`) outlines inside the coral closing section; retain the 3px outline and 6px offset.
 
 ## Typography
 
-Fraunces supplies expressive headings, italic emphasis, the wordmark, and signature; DM Sans carries body copy, navigation, practical facts, and controls. Caveat adds handwritten captions, pillar titles, the invitation introduction, and the discovery cue. All three are served locally with `font-display: swap`. Loaded weights are DM Sans 400/500/600/700, Fraunces normal 500/600 plus italic 500, and Caveat normal 500. This is an observed hierarchy, not a fixed mathematical type scale.
+Bree Serif regular (400) replaces the previous display family for rounder, more distinctive headings and the wordmark. DM Sans remains the practical reading face, loaded at 400/500/600/700. Caveat normal (500) supplies handwritten emphasis in H1/H2, ocean interlude, and belief text, plus captions, pillar titles, invitation introductions, and discovery cues. All are local with `font-display: swap`; the body disables synthetic font styles with `font-synthesis: none`.
 
-The display, headline, title, body, lead, brand, and brand-label roles are in frontmatter. H1–H3 use balanced wrapping. Paragraphs cap at 68ch. The story copy uses 1.08rem with 1.85 line height; smaller explanatory copy commonly uses .9rem. The uppercase wordmark subline uses the label role, not body text.
+The display asset is `/assets/bree-serif.ttf`; the former font-4/5/6 display files are removed. Caveat remains `/assets/caveat-500.ttf`. H1–H3 use weight 400 and -.015em tracking; the wordmark uses -.025em. Emphasis uses Caveat at weight 500, normal style, and -.02em tracking. Hero emphasis is 1.08em and hibiscus; the journal H1 line height is 1.08. Some legacy shorthand declarations (journal ticket, ocean paragraph, signature) still request 500 or italic, but only regular 400 Bree Serif is loaded and synthetic styles are disabled. Preserve that distinction between declared and available font weights.
+
+The display, headline, title, body, lead, brand, and brand-label roles are in frontmatter. H1–H3 use balanced wrapping; paragraphs use pretty wrapping. Paragraphs cap at 68ch. The story copy uses 1.08rem with 1.85 line height; smaller explanatory copy commonly uses .9rem. The uppercase wordmark subline uses the label role, not body text.
 
 Home journal hero type overrides general H1 with `clamp(3.5rem,6.8vw,6rem)`; the closing headline uses `clamp(2.6rem,4.4vw,4.8rem)`, and contact H1 uses `clamp(3.3rem,5.7vw,5.5rem)`. Preserve these as component variants, rather than assuming every headline shares one size.
 
-Caveat print captions use 1.65rem/1.2, the smaller ocean print 1.45rem, pillar titles 2.2rem/1.2, the discovery cue 1.6rem/1.2, and the about portrait caption 1.5rem. Handwriting does not replace practical body text. Ocean interlude copy uses Fraunces `clamp(2.7rem,5.7vw,5.5rem)` at 1.16 line height.
+Caveat normal print captions use 1.65rem/1.2, the smaller ocean print 1.45rem, pillar titles 2.2rem/1.2, the discovery cue 1.6rem/1.2, and the about portrait caption 1.5rem. Handwriting does not replace practical body text. Ocean interlude copy uses Bree Serif `clamp(2.7rem,5.7vw,5.5rem)` at 1.16 line height.
 
 ## Layout
 
@@ -187,7 +202,7 @@ Desktop sections generally have 80–110px vertical breathing room. These are ob
 The journal scene is `clamp(600px,52vw,790px)` high. Its sunset print is 75% wide at left 1%/top 18px, with a 25.5%-wide ocean print at right .8%/top -40px. Their image heights are `clamp(340px,34vw,500px)` and `clamp(260px,29vw,440px)`. The ticket stays fixed within the composition rather than receiving parallax. The ocean interlude is `min(770px,67vw)` high with a 530px minimum and a plain straight lower edge; no fake torn-paper polygon is used. Its panorama and the Bali cover image are 130% high at top -15%, clipped to their containers to accommodate movement.
 
 - **At 1100px and below:** hide the supplementary header invitation and tighten navigation; the journal H1 becomes 6vw, scene height 630px, ticket width 26% at top 68%, and pillar images 340px. Room title/price stack. Main navigation remains visible.
-- **At 760px and below:** the header places navigation on a full-width third row, with the motion control beside the brand. Most editorial grids become single-column; trip facts become two columns; section navigation scrolls horizontally. Journal pillars remain two columns, with the third no longer spanning both; experience items remain image/text pairs. The journal scene is 590px tall. The sunset print becomes 92% wide, with a 300px image and -4deg tilt; the ocean print becomes 42% wide at top 238px with a 205px image and 8deg tilt. The ticket is at top 377px/left 4% with 49% width. Print padding reduces to 7px, captions to 1.23rem (ocean 1.1rem), and pillar images to 290px. The ocean interlude uses 80svh, bounded by 560–700px, with smaller text and wave artwork. Motion strength drops to .35. Room headings return to side-by-side; the secondary stay-gallery image is hidden and dialog padding becomes 12px.
+- **At 760px and below:** the header places navigation on a full-width third row, with the motion control beside the brand. Most editorial grids become single-column; trip facts become two columns; section navigation scrolls horizontally. Journal pillars remain two columns, with the third no longer spanning both; experience items remain image/text pairs. The journal scene is 590px tall. The sunset print becomes 92% wide, with a 300px image and -4deg tilt; the ocean print becomes 42% wide at top 238px with a 205px image and 8deg tilt. The ticket is at top 377px/left 4% with 50% width and wrapping .76rem trip-fact text. Print padding reduces to 7px, captions to 1.23rem (ocean 1.1rem), and pillar images to 290px. The ocean interlude uses 80svh, bounded by 560–700px, with smaller text and wave artwork. Motion strength drops to .35. Room headings return to side-by-side; the secondary stay-gallery image is hidden and dialog padding becomes 12px.
 - **At 390px and below:** pillars and experience items fully stack; journal pillar images become 370px and experience images remain 270px. Room title/price stack, and the hero-note link tightens. The journal scene retains its mobile dimensions.
 
 Sticky trip navigation sits at the top with z-index 5. Anchor offset is 90px, reduced to 75px at the mobile breakpoint. Print removes navigation, major image groups and action controls, uses white/black with 11pt body copy, reduces heading sizes, and avoids splitting itinerary details. The print handlers open every itinerary disclosure before printing and restore prior open states afterward. Journal print rules also hide motion controls, studies, discovery cue, ocean interlude, and framed hero photos; transforms are removed and the ticket returns to normal flow.
@@ -204,15 +219,15 @@ Bounded parallax combines vertical translation with each layer's static tilt. Th
 
 Photo frames are rectangular with deliberately unequal bottom margins for captions; buttons retain their small radius and list markers remain circular. Hero prints rest at -3deg and 7deg (mobile -4deg and 8deg); pillar images at -3deg, 3deg, and -2deg; the about portrait at 3deg. The ruled journal ticket has no rotation. The ocean interlude ends in a straight edge. Icons remain 22px outline SVGs with 1.5 stroke width; motion-control icons are 18px.
 
-Four original decorative SVG studies in scripts/illustrations.mjs use pencil-brown outlines, fine veins, doubled contours, and low-opacity hatching: `palm-study.svg` (580×750), `shell-study.svg` (350×280), `sun-study.svg` (300×290), and `wave-study.svg` (400×120). They implement Hiro's explicit pencil-sketch request. The study images have empty alt text and `aria-hidden="true"`, with pointer events and selection disabled. The ocean waves are filtered white; other study placements retain their brown stroke and contextual opacity.
+Four original decorative SVG studies in scripts/illustrations.mjs use muted teal pencil outlines, fine veins, doubled contours, and low-opacity hatching: `palm-study.svg` (580×750), `shell-study.svg` (350×280), `sun-study.svg` (300×290), and `wave-study.svg` (400×120). They implement Hiro's explicit pencil-sketch request. The study images have empty alt text and `aria-hidden="true"`, with pointer events and selection disabled. The ocean waves are filtered white; other study placements retain their muted teal stroke and contextual opacity.
 
 ## Components
 
-**Buttons and text links.** The filled rust button and inverse light button use 52px minimum height, 24px content gap, a 1px matching border, and 500-weight text with 1.4 line height. Background transitions take .2s; light hover also changes its border to rose. Underlined text links use a 1px bottom border, 12px gap, and 1.5 line height. Itinerary links use forest. These are links when navigating or opening email; print is a real button.
+**Buttons and text links.** The filled ocean-teal button and the base inverse light button use 52px minimum height, 24px content gap, a 1px matching border, and 500-weight text with 1.4 line height. Background transitions take .2s. The base light variant still exists, but the rendered closing overrides it with an ocean-teal fill, matching border, and sand text; hover darkens fill and border to `rust-hover`. Its coral section uses deep-teal text and focus outlines. Underlined text links use a 1px bottom border, 12px gap, and 1.5 line height. Itinerary links use forest. These are links when navigating or opening email; print is a real button.
 
-**Navigation.** The wordmark links home. Main navigation uses .92rem text, 30px gaps, and a thin rust underline/color change on hover and `aria-current`; mobile values are specified above. The supplementary invitation disappears at 1100px. Sticky retreat navigation preserves all its links through horizontal overflow on mobile. A keyboard-revealed skip link targets main content.
+**Navigation.** The wordmark links home. Main navigation uses .92rem text, 30px gaps, and a thin ocean-teal underline/color change on hover and `aria-current`; mobile values are specified above. The supplementary invitation disappears at 1100px. Sticky retreat navigation preserves all its links through horizontal overflow on mobile. A keyboard-revealed skip link targets main content.
 
-**Journal ticket.** A stationary ruled invitation with Caveat introduction, Fraunces trip title, and small sans trip facts. The title underlines on hover; the contextual keyboard outline remains visible. Desktop sizing is in frontmatter and mobile placement in Layout. It links to the retreat and does not represent a reservation.
+**Journal ticket.** A stationary ruled invitation with Caveat introduction, Bree Serif trip title, and small sans trip facts. The title underlines on hover; the contextual keyboard outline remains visible. Desktop sizing is in frontmatter and mobile placement in Layout. It links to the retreat and does not represent a reservation.
 
 **Framed photos.** Hero frames use print-paper, the hero shadow, clipped image windows, and handwritten captions; pillar images use 10px side/top padding and 34px bottom padding with caption-like headings overlapping the lower margin. The about portrait uses 12px side/top padding and a Caveat caption. The photos retain their real source content.
 
@@ -228,7 +243,7 @@ Scroll and resize events request at most one pending animation frame. Each rende
 
 **Reduced motion and focus.** The base reduced-motion rule disables smooth scrolling, transitions, and animations. Journal rules additionally remove depth translation while retaining static print tilts; ocean and Bali panoramas lose all transforms. The off control also removes dynamic translation but is specifically a decorative-parallax control, not a global hover or smooth-scroll switch. Apply the contextual focus rule to every interactive element.
 
-**Photography and rights.** Original public Wild Joy Project images were retained for this first draft, with descriptive alt text and contextual captions. They are not generic open-license assets: content and photography retain their existing rights, independent of any MIT license on implementation code. New image sources or new usage rights require separate verification. Font files are local; the Caveat license is recorded in docs/caveat-OFL.txt. The SVG studies are original implementation artwork, separate from the retained photography rights.
+**Photography and rights.** Original public Wild Joy Project images were retained for this first draft, with descriptive alt text and contextual captions. They are not generic open-license assets: content and photography retain their existing rights, independent of any MIT license on implementation code. New image sources or new usage rights require separate verification. Font files are local; the Caveat license is recorded in docs/caveat-OFL.txt. The Bree Serif license is recorded in docs/bree-serif-OFL.txt. The SVG studies are original implementation artwork, separate from the retained photography rights.
 
 ## Do's and Don'ts
 
@@ -239,6 +254,6 @@ Scroll and resize events request at most one pending animation frame. Each rende
 - Do label this as a first-draft system until Alyssa reviews it.
 - Don't treat the MIT implementation license as permission to relicense the photos or source text.
 - Don't add booking, payment, newsletter, or availability states that have no implementation or verified source.
-- Don't replace contextual focus outlines with a single color that disappears on the rust closing section.
+- Don't replace the deep-teal closing focus outline with a pale outline that disappears on coral.
 - Don't turn these observed choices into permanent brand commitments without review.
 - Don't add scroll hijacking, autoplay loops, moving practical information, or fake torn-paper edges to this implementation.
