@@ -3,7 +3,8 @@
 [Live draft](https://wild-joy-project-draft.hiro-33e.workers.dev) · [GitHub source](https://github.com/hkuwana/wild-joy-project)
 
 A first-draft website for Alyssa Kuwana’s travel retreats: expressive typography,
-original photography, a readable Bali guide, and straightforward inquiries.
+original photography, pencil-style SVG studies, layered parallax photo prints,
+a readable Bali guide, and straightforward inquiries.
 
 **The implementation is open source (MIT). Original photographs, branding, and
 copy retain their existing rights.** See [LICENSE](LICENSE) and [sources](docs/SOURCES.md).
@@ -24,6 +25,7 @@ terminal and refresh the browser. Stop the preview with Ctrl-C.
 ```sh
 npm run build
 npm run check
+npm test
 ```
 
 The complete deployable website is generated in `dist/`. It needs no database,
@@ -32,10 +34,11 @@ server functions, external font services, analytics, or paid website builder.
 ## Make changes
 
 - **Dates, room prices, trip descriptions, itinerary, FAQs, bio, contact email:** edit `content.json`.
-- **Colors, spacing, type and mobile layout:** edit `site/styles.css`.
+- **Colors, spacing, type and mobile layout:** edit `site/styles.css` and `site/journal.css`.
 - **Page layout and shared copy:** edit `scripts/build.mjs`.
 - **Photos:** replace matching files in `site/assets/`; update `docs/assets.json` for provenance.
-- **Photo viewer and printing behavior:** edit `site/app.js`.
+- **Photo viewer, printing, and motion behavior:** edit `site/app.js`.
+- **Original pencil-style drawings:** edit `scripts/illustrations.mjs`; the build writes SVGs into `dist/assets/`.
 
 In GitHub, open the file, click the pencil, edit, and commit. A commit only updates
 the source: the current deployment must be redeployed separately.
@@ -43,6 +46,10 @@ Use a branch and pull request when reviewing changes with someone else.
 
 The Contact page opens the visitor’s email app. It does not silently send mail
 or store inquiries. Calendar downloads save tentative dates, not a booking.
+
+Decorative motion follows scrolling, with smaller movement on phones. The header
+control remembers the visitor’s choice. System reduced-motion settings turn the
+parallax off; all content remains visible without JavaScript.
 
 ## Free Cloudflare hosting
 
@@ -67,7 +74,7 @@ deployment tool, not a website runtime dependency.
 2. Sign into her Cloudflare account and deploy with the commands above. She gets
    her own free `workers.dev` URL; no domain purchase is required.
 3. In Workers & Pages, open the Worker’s **Settings > Builds** and connect her fork.
-4. Use `main` as the production branch, `npm run build && npm run check` as the
+4. Use `main` as the production branch, `npm run build && npm run check && npm test` as the
    build command, and `npx wrangler@4.157.0 deploy` as the deploy command.
 5. Keep the Worker name equal to `name` in `wrangler.jsonc`.
 6. Her commits will then trigger deployments. Check the deployment result before
@@ -102,6 +109,8 @@ content.json          Editable trip and host content
 site/                 Styles, browser JS, photos, fonts, static hosting headers
 scripts/build.mjs     Small HTML generator, no dependencies
 scripts/check.mjs     Internal links, assets, critical content and calendar checks
+scripts/illustrations.mjs  Original SVG botanical and ocean studies
+scripts/motion.test.mjs    Motion preference and scrolling behavior checks
 scripts/serve.mjs     Local preview server
 docs/                 Source ledger, asset provenance, licenses and handoff
 dist/                 Generated website (not committed)

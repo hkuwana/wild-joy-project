@@ -16,3 +16,18 @@ November 4, 2026.
 Limits: print styling and expansion logic are implemented but a print-to-PDF output was not inspected. This is not a full assistive-technology audit. Alyssa has not reviewed the draft, and live booking availability is not verified. Source-site prices and dates are preserved with inquiry-only actions. Production replacement and domain changes are outside this iteration.
 
 Live verification: all four public HTML routes, styles, and the calendar returned successfully and matched the local build byte-for-byte. Unknown route returned 404. The deployed homepage rendered without browser console errors or broken visible images at 1680px. See deployment.json.
+
+## Illustrated journal and parallax update
+
+- Build and checks pass: five HTML documents, 115 internal references.
+- Six motion behavior tests pass: reduced-motion preference, saved toggle and reversal, frame coalescing/no idle loop, preference changes, hidden documents/storage failure, and smaller phone movement/offscreen culling.
+- Browser-observed layer offsets change by different amounts while scrolling. Motion off clears every offset and persists on reload.
+- Home reviewed at 1440px and 390px, ocean interlude at both sizes; Bali at 320px and About at 900px. Document width equals viewport width.
+- Original factual retreat details remain unchanged.
+
+Limits: reduced motion was tested with a simulated media-query event in the source harness, not a changed OS preference. Physical mobile-device frame timing was not profiled.
+
+Live update verification: 13 routes/assets matched the local build byte-for-byte,
+including all four SVGs, Caveat, browser JS, and both stylesheets. An unknown route
+returned 404. The deployed page has no captured console errors; parallax offsets
+are applied under the production CSP, and the live motion toggle clears them.

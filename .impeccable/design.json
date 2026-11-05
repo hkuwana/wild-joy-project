@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-04T23:17:39.040532+00:00",
+  "generatedAt": "2026-11-05T01:12:01.072030+00:00",
   "title": "Design System: Wild Joy Project",
   "extensions": {
     "colorMeta": {
@@ -186,34 +186,6 @@
           "oklch(95% 0.00000 89.88)"
         ]
       },
-      "photo-shadow": {
-        "role": "neutral",
-        "displayName": "Photo Shadow",
-        "tonalRamp": [
-          "oklch(15% 0.00000 0.00)",
-          "oklch(26.4% 0.00000 0.00)",
-          "oklch(37.9% 0.00000 0.00)",
-          "oklch(49.3% 0.00000 0.00)",
-          "oklch(60.7% 0.00000 0.00)",
-          "oklch(72.1% 0.00000 0.00)",
-          "oklch(83.6% 0.00000 0.00)",
-          "oklch(95% 0.00000 0.00)"
-        ]
-      },
-      "tag-shadow": {
-        "role": "neutral",
-        "displayName": "Tag Shadow",
-        "tonalRamp": [
-          "oklch(15% 0.03036 40.20 / 0.149)",
-          "oklch(26.4% 0.03036 40.20 / 0.149)",
-          "oklch(37.9% 0.03036 40.20 / 0.149)",
-          "oklch(49.3% 0.03036 40.20 / 0.149)",
-          "oklch(60.7% 0.03036 40.20 / 0.149)",
-          "oklch(72.1% 0.03036 40.20 / 0.149)",
-          "oklch(83.6% 0.03036 40.20 / 0.149)",
-          "oklch(95% 0.03036 40.20 / 0.149)"
-        ]
-      },
       "dialog-backdrop": {
         "role": "neutral",
         "displayName": "Dialog Backdrop",
@@ -241,6 +213,160 @@
           "oklch(83.6% 0.00000 0.00)",
           "oklch(95% 0.00000 0.00)"
         ]
+      },
+      "print-paper": {
+        "role": "neutral",
+        "displayName": "Print Paper",
+        "tonalRamp": [
+          "oklch(15% 0.01226 91.51)",
+          "oklch(26.4% 0.01226 91.51)",
+          "oklch(37.9% 0.01226 91.51)",
+          "oklch(49.3% 0.01226 91.51)",
+          "oklch(60.7% 0.01226 91.51)",
+          "oklch(72.1% 0.01226 91.51)",
+          "oklch(83.6% 0.01226 91.51)",
+          "oklch(95% 0.01226 91.51)"
+        ]
+      },
+      "print-shadow": {
+        "role": "neutral",
+        "displayName": "Print Shadow",
+        "tonalRamp": [
+          "oklch(15% 0.04276 62.87 / 0.1294)",
+          "oklch(26.4% 0.04276 62.87 / 0.1294)",
+          "oklch(37.9% 0.04276 62.87 / 0.1294)",
+          "oklch(49.3% 0.04276 62.87 / 0.1294)",
+          "oklch(60.7% 0.04276 62.87 / 0.1294)",
+          "oklch(72.1% 0.04276 62.87 / 0.1294)",
+          "oklch(83.6% 0.04276 62.87 / 0.1294)",
+          "oklch(95% 0.04276 62.87 / 0.1294)"
+        ]
+      },
+      "pillar-shadow": {
+        "role": "neutral",
+        "displayName": "Pillar Shadow",
+        "tonalRamp": [
+          "oklch(15% 0.04276 62.87 / 0.0784)",
+          "oklch(26.4% 0.04276 62.87 / 0.0784)",
+          "oklch(37.9% 0.04276 62.87 / 0.0784)",
+          "oklch(49.3% 0.04276 62.87 / 0.0784)",
+          "oklch(60.7% 0.04276 62.87 / 0.0784)",
+          "oklch(72.1% 0.04276 62.87 / 0.0784)",
+          "oklch(83.6% 0.04276 62.87 / 0.0784)",
+          "oklch(95% 0.04276 62.87 / 0.0784)"
+        ]
+      },
+      "portrait-shadow": {
+        "role": "neutral",
+        "displayName": "Portrait Shadow",
+        "tonalRamp": [
+          "oklch(15% 0.04276 62.87 / 0.1098)",
+          "oklch(26.4% 0.04276 62.87 / 0.1098)",
+          "oklch(37.9% 0.04276 62.87 / 0.1098)",
+          "oklch(49.3% 0.04276 62.87 / 0.1098)",
+          "oklch(60.7% 0.04276 62.87 / 0.1098)",
+          "oklch(72.1% 0.04276 62.87 / 0.1098)",
+          "oklch(83.6% 0.04276 62.87 / 0.1098)",
+          "oklch(95% 0.04276 62.87 / 0.1098)"
+        ]
+      },
+      "ticket-line": {
+        "role": "neutral",
+        "displayName": "Ticket Line",
+        "tonalRamp": [
+          "oklch(15% 0.04456 65.88)",
+          "oklch(26.4% 0.04456 65.88)",
+          "oklch(37.9% 0.04456 65.88)",
+          "oklch(49.3% 0.04456 65.88)",
+          "oklch(60.7% 0.04456 65.88)",
+          "oklch(72.1% 0.04456 65.88)",
+          "oklch(83.6% 0.04456 65.88)",
+          "oklch(95% 0.04456 65.88)"
+        ]
+      },
+      "motion-hover": {
+        "role": "neutral",
+        "displayName": "Motion Hover",
+        "tonalRamp": [
+          "oklch(15% 0.02181 83.26)",
+          "oklch(26.4% 0.02181 83.26)",
+          "oklch(37.9% 0.02181 83.26)",
+          "oklch(49.3% 0.02181 83.26)",
+          "oklch(60.7% 0.02181 83.26)",
+          "oklch(72.1% 0.02181 83.26)",
+          "oklch(83.6% 0.02181 83.26)",
+          "oklch(95% 0.02181 83.26)"
+        ]
+      },
+      "sketch-pencil": {
+        "role": "neutral",
+        "displayName": "Sketch Pencil",
+        "tonalRamp": [
+          "oklch(15% 0.06272 67.24)",
+          "oklch(26.4% 0.06272 67.24)",
+          "oklch(37.9% 0.06272 67.24)",
+          "oklch(49.3% 0.06272 67.24)",
+          "oklch(60.7% 0.06272 67.24)",
+          "oklch(72.1% 0.06272 67.24)",
+          "oklch(83.6% 0.06272 67.24)",
+          "oklch(95% 0.06272 67.24)"
+        ]
+      },
+      "ocean-surface": {
+        "role": "neutral",
+        "displayName": "Ocean Surface",
+        "tonalRamp": [
+          "oklch(15% 0.05906 215.29)",
+          "oklch(26.4% 0.05906 215.29)",
+          "oklch(37.9% 0.05906 215.29)",
+          "oklch(49.3% 0.05906 215.29)",
+          "oklch(60.7% 0.05906 215.29)",
+          "oklch(72.1% 0.05906 215.29)",
+          "oklch(83.6% 0.05906 215.29)",
+          "oklch(95% 0.05906 215.29)"
+        ]
+      },
+      "ocean-text": {
+        "role": "neutral",
+        "displayName": "Ocean Text",
+        "tonalRamp": [
+          "oklch(15% 0.01201 96.42)",
+          "oklch(26.4% 0.01201 96.42)",
+          "oklch(37.9% 0.01201 96.42)",
+          "oklch(49.3% 0.01201 96.42)",
+          "oklch(60.7% 0.01201 96.42)",
+          "oklch(72.1% 0.01201 96.42)",
+          "oklch(83.6% 0.01201 96.42)",
+          "oklch(95% 0.01201 96.42)"
+        ]
+      },
+      "ocean-overlay": {
+        "role": "neutral",
+        "displayName": "Ocean Overlay",
+        "tonalRamp": [
+          "oklch(15% 0.03769 233.44 / 0.302)",
+          "oklch(26.4% 0.03769 233.44 / 0.302)",
+          "oklch(37.9% 0.03769 233.44 / 0.302)",
+          "oklch(49.3% 0.03769 233.44 / 0.302)",
+          "oklch(60.7% 0.03769 233.44 / 0.302)",
+          "oklch(72.1% 0.03769 233.44 / 0.302)",
+          "oklch(83.6% 0.03769 233.44 / 0.302)",
+          "oklch(95% 0.03769 233.44 / 0.302)"
+        ]
+      },
+      "ocean-text-shadow": {
+        "role": "neutral",
+        "displayName": "Ocean Text Shadow",
+        "tonalRamp": [
+          "oklch(15% 0.03177 178.47 / 0.4)",
+          "oklch(26.4% 0.03177 178.47 / 0.4)",
+          "oklch(37.9% 0.03177 178.47 / 0.4)",
+          "oklch(49.3% 0.03177 178.47 / 0.4)",
+          "oklch(60.7% 0.03177 178.47 / 0.4)",
+          "oklch(72.1% 0.03177 178.47 / 0.4)",
+          "oklch(83.6% 0.03177 178.47 / 0.4)",
+          "oklch(95% 0.03177 178.47 / 0.4)"
+        ]
       }
     },
     "typographyMeta": {
@@ -251,18 +377,40 @@
       "label": {
         "displayName": "Brand subline",
         "purpose": "The uppercase subline beneath the wordmark."
+      },
+      "handwriting": {
+        "displayName": "Handwritten accent",
+        "purpose": "Caveat 500 for invitations and discovery cues; not practical body text."
+      },
+      "print-caption": {
+        "displayName": "Print caption",
+        "purpose": "Handwritten captions beneath framed source photography."
+      },
+      "journal-display": {
+        "displayName": "Journal hero",
+        "purpose": "Current home H1 variant; inherited base heading properties."
       }
     },
     "shadows": [
       {
-        "name": "invitation-tag",
-        "value": "0 8px 24px #26150f26",
-        "purpose": "The lifted paper invitation."
+        "name": "hero-print",
+        "value": "3px 14px 32px #4b362321",
+        "purpose": "Layered hero photographs."
       },
       {
-        "name": "photo-caption-text",
-        "value": "0 2px 10px #000",
-        "purpose": "Text-shadow behind white photo captions."
+        "name": "pillar-print",
+        "value": "2px 10px 24px #4b362314",
+        "purpose": "Smaller journal photo groups."
+      },
+      {
+        "name": "portrait-print",
+        "value": "2px 12px 28px #4b36231c",
+        "purpose": "Framed about portrait."
+      },
+      {
+        "name": "ocean-copy-text",
+        "value": "0 3px 18px #11292466",
+        "purpose": "Text-shadow over the ocean panorama."
       }
     ],
     "motion": [
@@ -270,11 +418,6 @@
         "name": "button-background",
         "value": "background .2s",
         "purpose": "Filled action hover."
-      },
-      {
-        "name": "invitation-transform",
-        "value": "transform .25s cubic-bezier(.2,.8,.2,1)",
-        "purpose": "Rotation from 3deg to 0 on hover."
       },
       {
         "name": "photo-transform",
@@ -285,6 +428,21 @@
         "name": "reduced-motion",
         "value": "@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}",
         "purpose": "Remove interpolation and smooth scroll."
+      },
+      {
+        "name": "bounded-parallax",
+        "value": "translate3d(0,var(--parallax-y,0px),0) rotate(var(--tilt,0deg))",
+        "purpose": "Scene progress clamped to ±.65 × depth; strength 1 or .35 at max-width 760px. One pending requestAnimationFrame; updates visible scenes only."
+      },
+      {
+        "name": "depth-values",
+        "value": "sun:-70; palm:-135; sunset:65; ocean-print:-105; shell:80; panoramas:150",
+        "purpose": "Actual decorative layer multipliers from the build and motion controller."
+      },
+      {
+        "name": "journal-reduced-motion",
+        "value": "[data-depth]{transform:rotate(var(--tilt,0deg))!important}.ocean-window>img,.bali-cover>.bali-panorama{transform:none!important}",
+        "purpose": "Applied only in prefers-reduced-motion:reduce. System preference overrides the persisted control."
       }
     ],
     "breakpoints": [
@@ -299,10 +457,6 @@
       {
         "name": "tablet",
         "value": "1100px"
-      },
-      {
-        "name": "wide-min",
-        "value": "1600px"
       }
     ]
   },
@@ -339,12 +493,12 @@
       "css": ".ds-nav{display:flex;gap:30px;color:var(--ink,#3b382c);font-family:var(--sans,\"DM Sans\",sans-serif)}.ds-nav a{color:inherit;padding:7px 0;text-decoration:none;font-size:.92rem;border-bottom:1px solid transparent}.ds-nav a:hover,.ds-nav a[aria-current]{border-color:var(--rust,#913b27);color:var(--rust,#913b27)}:focus-visible{outline:3px solid var(--rust,#913b27);outline-offset:6px}@media(max-width:1100px){.ds-nav{gap:20px}}@media(max-width:760px){.ds-nav{width:100%;justify-content:space-between;gap:12px;border-top:1px solid var(--line,#d6cbb9);padding-top:10px}.ds-nav a{font-size:.84rem}}"
     },
     {
-      "name": "Retreat invitation tag",
-      "kind": "chip",
-      "refersTo": "trip-tag",
-      "description": "A lightly rotated link layered over source photography.",
-      "html": "<a class=\"ds-tag ds-icon\" href=\"#bali\"><span>You’re invited</span><strong>Bali, May 2027</strong><span>8 days. Up to 8 women.<svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></span></a>",
-      "css": ".ds-tag{display:inline-block;background:var(--paper,#f8f4e9);color:var(--rust,#913b27);padding:20px 25px;min-width:235px;text-decoration:none;transform:rotate(3deg);box-shadow:0 8px 24px #26150f26;transition:transform .25s cubic-bezier(.2,.8,.2,1);font-family:var(--sans,\"DM Sans\",sans-serif)}.ds-tag:hover{transform:rotate(0)}.ds-tag>span{display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:.78rem}.ds-tag>span:first-child{font-family:var(--serif,\"Fraunces\",Georgia,serif);font-style:italic;font-size:1.2rem}.ds-tag strong{display:block;font:500 1.75rem/1.4 var(--serif,\"Fraunces\",Georgia,serif);padding:4px 0 8px}.ds-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex:none}:focus-visible{outline:3px solid var(--rust,#913b27);outline-offset:6px}@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}"
+      "name": "Journal invitation ticket",
+      "kind": "custom",
+      "refersTo": "journal-ticket",
+      "description": "Stationary ruled invitation accompanying the layered photo scene; layout percentages are relative to that scene.",
+      "html": "<a class=\"ds-ticket\" href=\"#bali\"><span class=\"ds-hand\">You’re invited...</span><strong>Bali, May 2027</strong><span>8 days. Up to 8 women.<svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></span></a>",
+      "css": ".ds-ticket{display:block;width:24%;padding:18px 0 18px 18px;color:var(--rust,#913b27);text-decoration:none;border-top:1px solid #bca38b;border-bottom:1px solid #bca38b;font-family:var(--sans,\"DM Sans\",sans-serif)}.ds-hand{font:500 1.9rem/1.2 var(--hand,\"Caveat\",cursive)}.ds-ticket strong{display:block;font:500 1.8rem/1.4 var(--serif,\"Fraunces\",Georgia,serif);margin:6px 0 12px}.ds-ticket>span:last-child{display:flex;align-items:center;justify-content:space-between;font-size:.82rem}.ds-ticket:hover strong{text-decoration:underline;text-underline-offset:6px}.ds-ticket svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex:none}:focus-visible{outline:3px solid var(--rust,#913b27);outline-offset:6px}@media(max-width:1100px){.ds-ticket{width:26%}.ds-ticket strong{font-size:1.5rem}.ds-ticket>span:last-child{font-size:.74rem}}@media(max-width:760px){.ds-ticket{width:49%;padding:12px 0}.ds-ticket .ds-hand{font-size:1.5rem}.ds-ticket strong{font-size:1.25rem;margin:5px 0 8px}.ds-ticket>span:last-child{font-size:.66rem;gap:5px}.ds-ticket svg{width:16px;height:16px}}"
     },
     {
       "name": "FAQ disclosure",
@@ -352,15 +506,24 @@
       "description": "Native details with a plus indicator that becomes a minus.",
       "html": "<details class=\"ds-faq\"><summary>Questions about Bali?<span class=\"ds-plus\" aria-hidden=\"true\"></span></summary><p>Contact Alyssa to talk through the retreat.</p></details>",
       "css": ".ds-faq{color:var(--ink,#3b382c);font:16px/1.65 var(--sans,\"DM Sans\",sans-serif);border-block:1px solid var(--line,#d6cbb9)}.ds-faq summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:1.04rem;padding:23px 0}.ds-faq summary::-webkit-details-marker{display:none}.ds-faq p{margin:0;font-size:.94rem;padding:0 28px 25px 0}.ds-plus{position:relative;width:16px;height:16px;display:block;flex:none}.ds-plus::before,.ds-plus::after{content:\"\";position:absolute;left:0;right:0;top:7px;height:1px;background:currentColor}.ds-plus::after{transform:rotate(90deg)}.ds-faq[open] .ds-plus::after{transform:rotate(0)}:focus-visible{outline:3px solid var(--rust,#913b27);outline-offset:6px}"
+    },
+    {
+      "name": "Decorative motion control",
+      "kind": "button",
+      "refersTo": "motion-control",
+      "description": "Style specimen; the app controller owns persisted on/off and system-reduced states. Reduced state is disabled.",
+      "html": "<button class=\"ds-motion\" type=\"button\" aria-pressed=\"true\" aria-label=\"Turn off decorative motion\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path class=\"ds-pause\" d=\"M9 6v12M15 6v12\"/><path class=\"ds-play\" d=\"m9 6 9 6-9 6Z\"/></svg><span>Motion on</span></button>",
+      "css": ".ds-motion{display:inline-flex;align-items:center;gap:5px;padding:7px 9px;min-height:40px;border:1px solid var(--line,#d6cbb9);border-radius:3px;background:transparent;color:var(--ink,#3b382c);font:.72rem/1.65 var(--sans,\"DM Sans\",sans-serif);white-space:nowrap;cursor:pointer}.ds-motion:hover{background:#eee6d7}.ds-motion svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.ds-play{display:none}.ds-motion[aria-pressed=false] .ds-pause{display:none}.ds-motion[aria-pressed=false] .ds-play{display:block}.ds-motion:disabled{cursor:default;opacity:.8}:focus-visible{outline:3px solid var(--rust,#913b27);outline-offset:6px}@media(max-width:760px){.ds-motion{min-height:38px;font-size:.67rem;padding:5px 7px}}"
     }
   ],
   "narrative": {
-    "northStar": "Photographic travel correspondence",
-    "overview": "This records the implemented photographic travel-correspondence direction: expressive serif headings, warm paper surfaces, personal invitations, and generous space around source photography. The photos carry the identity; navigation and practical retreat information use familiar web patterns.\n\nThis is a reversible first-draft implementation record, not a newly approved brand identity. PRODUCT.md remains the product authority; docs/first-draft-brief.md owns the page strategy. Values were extracted from site/styles.css, site/fonts.css, and scripts/build.mjs on November 4, 2026. This documentation pass did not inspect rendered pages or establish new brand commitments.\n\nSidecar tonal ramps are synthesized OKLCH panel previews, not additional implemented CSS tokens or approved palette choices. Component snippets retain CSS variable references with extracted fallback values. Text is illustrative where a snippet requires sample content.",
+    "northStar": "Illustrated travel journal",
+    "overview": "The implemented illustrated travel journal builds on the original photographic travel-correspondence direction: expressive serif headings, warm paper surfaces, and personal invitations. Source photographs now appear as layered framed prints with handwritten captions, original pencil-style SVG studies, and bounded scroll-linked depth. Practical retreat content remains still and uses familiar web patterns.\n\nThis remains a reversible first draft. Hiro explicitly requested the added visual impact, parallax, and pencil-sketch SVG direction; Alyssa has not reviewed the final brand implementation. PRODUCT.md remains the product authority; docs/first-draft-brief.md and docs/motion-direction.md hold the surface brief. This snapshot was extracted from site/styles.css, site/fonts.css, site/journal.css, site/app.js, scripts/illustrations.mjs, and scripts/build.mjs on November 4, 2026. This documentation pass did not inspect rendered pages.\n\nSidecar tonal ramps are synthesized OKLCH panel previews, not additional implemented CSS tokens or approved palette choices. Component snippets retain CSS variable references with extracted fallback values. Text is illustrative where a snippet requires sample content.",
     "keyCharacteristics": [
-      "Photo-led compositions with restrained colored section backgrounds.",
-      "Fraunces headings paired with readable DM Sans body text.",
-      "Mostly flat rectangular surfaces, fine dividing rules, and one lightly lifted invitation tag.",
+      "Source photography framed as overlapping prints, with generous editorial spacing.",
+      "Fraunces headings and DM Sans body copy, with Caveat reserved for handwritten accents.",
+      "Original pencil studies of a palm, shell, sun, and waves.",
+      "Bounded decorative parallax with a persistent control and system reduced-motion priority.",
       "Conventional navigation, native disclosure controls, and contextual keyboard focus."
     ],
     "rules": [
@@ -368,19 +531,26 @@
         "name": "The Contextual Focus Rule",
         "body": "Use a rust outline on the light surfaces and a paper outline inside the rust closing section; retain the 3px outline and 6px offset.",
         "section": "colors"
+      },
+      {
+        "name": "The Bounded Motion Rule",
+        "body": "Move decorative layers only, keep practical content still, respect the visible motion control and system reduced motion, and preserve ordinary document scrolling.",
+        "section": "elevation"
       }
     ],
     "dos": [
       "Do retain the existing source photography and its rights attribution.",
       "Do preserve readable body copy, visible focus, native controls, and reduced-motion behavior.",
       "Do carry all three responsive thresholds forward when changing components.",
+      "Do retain a still, readable composition with motion off, reduced motion, or JavaScript unavailable.",
       "Do label this as a first-draft system until Alyssa reviews it."
     ],
     "donts": [
       "Don't treat the MIT implementation license as permission to relicense the photos or source text.",
       "Don't add booking, payment, newsletter, or availability states that have no implementation or verified source.",
       "Don't replace contextual focus outlines with a single color that disappears on the rust closing section.",
-      "Don't turn these observed choices into permanent brand commitments without review."
+      "Don't turn these observed choices into permanent brand commitments without review.",
+      "Don't add scroll hijacking, autoplay loops, moving practical information, or fake torn-paper edges to this implementation."
     ]
   }
 }
