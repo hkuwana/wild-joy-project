@@ -1,0 +1,386 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-04T23:17:39.040532+00:00",
+  "title": "Design System: Wild Joy Project",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15% 0.01516 90.23)",
+          "oklch(26.4% 0.01516 90.23)",
+          "oklch(37.9% 0.01516 90.23)",
+          "oklch(49.3% 0.01516 90.23)",
+          "oklch(60.7% 0.01516 90.23)",
+          "oklch(72.1% 0.01516 90.23)",
+          "oklch(83.6% 0.01516 90.23)",
+          "oklch(95% 0.01516 90.23)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.02053 95.62)",
+          "oklch(26.4% 0.02053 95.62)",
+          "oklch(37.9% 0.02053 95.62)",
+          "oklch(49.3% 0.02053 95.62)",
+          "oklch(60.7% 0.02053 95.62)",
+          "oklch(72.1% 0.02053 95.62)",
+          "oklch(83.6% 0.02053 95.62)",
+          "oklch(95% 0.02053 95.62)"
+        ]
+      },
+      "rust": {
+        "role": "primary",
+        "displayName": "Rust",
+        "tonalRamp": [
+          "oklch(15% 0.12132 34.47)",
+          "oklch(26.4% 0.12132 34.47)",
+          "oklch(37.9% 0.12132 34.47)",
+          "oklch(49.3% 0.12132 34.47)",
+          "oklch(60.7% 0.12132 34.47)",
+          "oklch(72.1% 0.12132 34.47)",
+          "oklch(83.6% 0.12132 34.47)",
+          "oklch(95% 0.12132 34.47)"
+        ]
+      },
+      "rose": {
+        "role": "neutral",
+        "displayName": "Rose",
+        "tonalRamp": [
+          "oklch(15% 0.05973 46.33)",
+          "oklch(26.4% 0.05973 46.33)",
+          "oklch(37.9% 0.05973 46.33)",
+          "oklch(49.3% 0.05973 46.33)",
+          "oklch(60.7% 0.05973 46.33)",
+          "oklch(72.1% 0.05973 46.33)",
+          "oklch(83.6% 0.05973 46.33)",
+          "oklch(95% 0.05973 46.33)"
+        ]
+      },
+      "olive": {
+        "role": "secondary",
+        "displayName": "Olive",
+        "tonalRamp": [
+          "oklch(15% 0.03584 110.54)",
+          "oklch(26.4% 0.03584 110.54)",
+          "oklch(37.9% 0.03584 110.54)",
+          "oklch(49.3% 0.03584 110.54)",
+          "oklch(60.7% 0.03584 110.54)",
+          "oklch(72.1% 0.03584 110.54)",
+          "oklch(83.6% 0.03584 110.54)",
+          "oklch(95% 0.03584 110.54)"
+        ]
+      },
+      "forest": {
+        "role": "secondary",
+        "displayName": "Forest",
+        "tonalRamp": [
+          "oklch(15% 0.03804 169.88)",
+          "oklch(26.4% 0.03804 169.88)",
+          "oklch(37.9% 0.03804 169.88)",
+          "oklch(49.3% 0.03804 169.88)",
+          "oklch(60.7% 0.03804 169.88)",
+          "oklch(72.1% 0.03804 169.88)",
+          "oklch(83.6% 0.03804 169.88)",
+          "oklch(95% 0.03804 169.88)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15% 0.02736 80.23)",
+          "oklch(26.4% 0.02736 80.23)",
+          "oklch(37.9% 0.02736 80.23)",
+          "oklch(49.3% 0.02736 80.23)",
+          "oklch(60.7% 0.02736 80.23)",
+          "oklch(72.1% 0.02736 80.23)",
+          "oklch(83.6% 0.02736 80.23)",
+          "oklch(95% 0.02736 80.23)"
+        ]
+      },
+      "rust-hover": {
+        "role": "primary",
+        "displayName": "Rust Hover",
+        "tonalRamp": [
+          "oklch(15% 0.10163 33.84)",
+          "oklch(26.4% 0.10163 33.84)",
+          "oklch(37.9% 0.10163 33.84)",
+          "oklch(49.3% 0.10163 33.84)",
+          "oklch(60.7% 0.10163 33.84)",
+          "oklch(72.1% 0.10163 33.84)",
+          "oklch(83.6% 0.10163 33.84)",
+          "oklch(95% 0.10163 33.84)"
+        ]
+      },
+      "link-hover": {
+        "role": "neutral",
+        "displayName": "Link Hover",
+        "tonalRamp": [
+          "oklch(15% 0.07478 35.84)",
+          "oklch(26.4% 0.07478 35.84)",
+          "oklch(37.9% 0.07478 35.84)",
+          "oklch(49.3% 0.07478 35.84)",
+          "oklch(60.7% 0.07478 35.84)",
+          "oklch(72.1% 0.07478 35.84)",
+          "oklch(83.6% 0.07478 35.84)",
+          "oklch(95% 0.07478 35.84)"
+        ]
+      },
+      "fit-surface": {
+        "role": "neutral",
+        "displayName": "Fit Surface",
+        "tonalRamp": [
+          "oklch(15% 0.03187 56.56)",
+          "oklch(26.4% 0.03187 56.56)",
+          "oklch(37.9% 0.03187 56.56)",
+          "oklch(49.3% 0.03187 56.56)",
+          "oklch(60.7% 0.03187 56.56)",
+          "oklch(72.1% 0.03187 56.56)",
+          "oklch(83.6% 0.03187 56.56)",
+          "oklch(95% 0.03187 56.56)"
+        ]
+      },
+      "itinerary-line": {
+        "role": "neutral",
+        "displayName": "Itinerary Line",
+        "tonalRamp": [
+          "oklch(15% 0.03090 117.52)",
+          "oklch(26.4% 0.03090 117.52)",
+          "oklch(37.9% 0.03090 117.52)",
+          "oklch(49.3% 0.03090 117.52)",
+          "oklch(60.7% 0.03090 117.52)",
+          "oklch(72.1% 0.03090 117.52)",
+          "oklch(83.6% 0.03090 117.52)",
+          "oklch(95% 0.03090 117.52)"
+        ]
+      },
+      "list-line": {
+        "role": "neutral",
+        "displayName": "List Line",
+        "tonalRamp": [
+          "oklch(15% 0.02053 95.62 / 0.149)",
+          "oklch(26.4% 0.02053 95.62 / 0.149)",
+          "oklch(37.9% 0.02053 95.62 / 0.149)",
+          "oklch(49.3% 0.02053 95.62 / 0.149)",
+          "oklch(60.7% 0.02053 95.62 / 0.149)",
+          "oklch(72.1% 0.02053 95.62 / 0.149)",
+          "oklch(83.6% 0.02053 95.62 / 0.149)",
+          "oklch(95% 0.02053 95.62 / 0.149)"
+        ]
+      },
+      "photo-white": {
+        "role": "neutral",
+        "displayName": "Photo white; also print background",
+        "tonalRamp": [
+          "oklch(15% 0.00000 89.88)",
+          "oklch(26.4% 0.00000 89.88)",
+          "oklch(37.9% 0.00000 89.88)",
+          "oklch(49.3% 0.00000 89.88)",
+          "oklch(60.7% 0.00000 89.88)",
+          "oklch(72.1% 0.00000 89.88)",
+          "oklch(83.6% 0.00000 89.88)",
+          "oklch(95% 0.00000 89.88)"
+        ]
+      },
+      "photo-shadow": {
+        "role": "neutral",
+        "displayName": "Photo Shadow",
+        "tonalRamp": [
+          "oklch(15% 0.00000 0.00)",
+          "oklch(26.4% 0.00000 0.00)",
+          "oklch(37.9% 0.00000 0.00)",
+          "oklch(49.3% 0.00000 0.00)",
+          "oklch(60.7% 0.00000 0.00)",
+          "oklch(72.1% 0.00000 0.00)",
+          "oklch(83.6% 0.00000 0.00)",
+          "oklch(95% 0.00000 0.00)"
+        ]
+      },
+      "tag-shadow": {
+        "role": "neutral",
+        "displayName": "Tag Shadow",
+        "tonalRamp": [
+          "oklch(15% 0.03036 40.20 / 0.149)",
+          "oklch(26.4% 0.03036 40.20 / 0.149)",
+          "oklch(37.9% 0.03036 40.20 / 0.149)",
+          "oklch(49.3% 0.03036 40.20 / 0.149)",
+          "oklch(60.7% 0.03036 40.20 / 0.149)",
+          "oklch(72.1% 0.03036 40.20 / 0.149)",
+          "oklch(83.6% 0.03036 40.20 / 0.149)",
+          "oklch(95% 0.03036 40.20 / 0.149)"
+        ]
+      },
+      "dialog-backdrop": {
+        "role": "neutral",
+        "displayName": "Dialog Backdrop",
+        "tonalRamp": [
+          "oklch(15% 0.01509 166.18 / 0.902)",
+          "oklch(26.4% 0.01509 166.18 / 0.902)",
+          "oklch(37.9% 0.01509 166.18 / 0.902)",
+          "oklch(49.3% 0.01509 166.18 / 0.902)",
+          "oklch(60.7% 0.01509 166.18 / 0.902)",
+          "oklch(72.1% 0.01509 166.18 / 0.902)",
+          "oklch(83.6% 0.01509 166.18 / 0.902)",
+          "oklch(95% 0.01509 166.18 / 0.902)"
+        ]
+      },
+      "print-black": {
+        "role": "neutral",
+        "displayName": "Print Black",
+        "tonalRamp": [
+          "oklch(15% 0.00000 0.00)",
+          "oklch(26.4% 0.00000 0.00)",
+          "oklch(37.9% 0.00000 0.00)",
+          "oklch(49.3% 0.00000 0.00)",
+          "oklch(60.7% 0.00000 0.00)",
+          "oklch(72.1% 0.00000 0.00)",
+          "oklch(83.6% 0.00000 0.00)",
+          "oklch(95% 0.00000 0.00)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "General H1; home and contact have implemented variants."
+      },
+      "label": {
+        "displayName": "Brand subline",
+        "purpose": "The uppercase subline beneath the wordmark."
+      }
+    },
+    "shadows": [
+      {
+        "name": "invitation-tag",
+        "value": "0 8px 24px #26150f26",
+        "purpose": "The lifted paper invitation."
+      },
+      {
+        "name": "photo-caption-text",
+        "value": "0 2px 10px #000",
+        "purpose": "Text-shadow behind white photo captions."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-background",
+        "value": "background .2s",
+        "purpose": "Filled action hover."
+      },
+      {
+        "name": "invitation-transform",
+        "value": "transform .25s cubic-bezier(.2,.8,.2,1)",
+        "purpose": "Rotation from 3deg to 0 on hover."
+      },
+      {
+        "name": "photo-transform",
+        "value": "transform .5s cubic-bezier(.2,.8,.2,1)",
+        "purpose": "Image hover scale to 1.025."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}",
+        "purpose": "Remove interpolation and smooth scroll."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "390px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      },
+      {
+        "name": "tablet",
+        "value": "1100px"
+      },
+      {
+        "name": "wide-min",
+        "value": "1600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Navigation or inquiry action; no booking state implied.",
+      "html": "<a class=\"ds-button ds-icon\" href=\"#example\">Explore rooms &amp; prices<svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:24px;min-height:52px;padding:14px 25px;background:var(--rust,#913b27);border:1px solid var(--rust,#913b27);border-radius:3px;color:var(--paper,#f8f4e9);text-decoration:none;font:500 16px/1.4 var(--sans,\"DM Sans\",sans-serif);transition:background .2s}.ds-button:hover{background:#702b1c}.ds-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex:none}:focus-visible{outline:3px solid var(--rust,#913b27);outline-offset:6px}@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}"
+    },
+    {
+      "name": "Light button on closing surface",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Inverse invitation with contextually light keyboard focus.",
+      "html": "<div class=\"ds-closing\"><a class=\"ds-button ds-light ds-icon\" href=\"#example\">Explore Bali with me<svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></a></div>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:24px;min-height:52px;padding:14px 25px;background:var(--rust,#913b27);border:1px solid var(--rust,#913b27);border-radius:3px;color:var(--paper,#f8f4e9);text-decoration:none;font:500 16px/1.4 var(--sans,\"DM Sans\",sans-serif);transition:background .2s}.ds-button:hover{background:#702b1c}.ds-closing{background:var(--rust,#913b27);padding:24px}.ds-light{background:var(--paper,#f8f4e9);border-color:var(--paper,#f8f4e9);color:var(--rust,#913b27)}.ds-light:hover{background:var(--rose,#e6b9a4);border-color:var(--rose,#e6b9a4)}.ds-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex:none}:focus-visible{outline:3px solid var(--rust,#913b27);outline-offset:6px}.ds-closing :focus-visible{outline-color:var(--paper,#f8f4e9)}@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}"
+    },
+    {
+      "name": "Text link",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "Underlined secondary action with arrow.",
+      "html": "<a class=\"ds-link ds-icon\" href=\"#example\">The story behind Wild Joy<svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-link{display:inline-flex;align-items:center;gap:12px;padding:8px 0;border:0;border-bottom:1px solid currentColor;background:none;text-decoration:none;color:var(--rust,#913b27);font:500 16px/1.5 var(--sans,\"DM Sans\",sans-serif)}.ds-link:hover{color:#602f22}.ds-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex:none}:focus-visible{outline:3px solid var(--rust,#913b27);outline-offset:6px}"
+    },
+    {
+      "name": "Main navigation",
+      "kind": "nav",
+      "description": "Visible current-page state and full-width mobile row.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Example navigation\"><a href=\"#home\" aria-current=\"page\">Home</a><a href=\"#bali\">Bali 2027</a><a href=\"#about\">Meet Alyssa</a><a href=\"#contact\">Get in touch</a></nav>",
+      "css": ".ds-nav{display:flex;gap:30px;color:var(--ink,#3b382c);font-family:var(--sans,\"DM Sans\",sans-serif)}.ds-nav a{color:inherit;padding:7px 0;text-decoration:none;font-size:.92rem;border-bottom:1px solid transparent}.ds-nav a:hover,.ds-nav a[aria-current]{border-color:var(--rust,#913b27);color:var(--rust,#913b27)}:focus-visible{outline:3px solid var(--rust,#913b27);outline-offset:6px}@media(max-width:1100px){.ds-nav{gap:20px}}@media(max-width:760px){.ds-nav{width:100%;justify-content:space-between;gap:12px;border-top:1px solid var(--line,#d6cbb9);padding-top:10px}.ds-nav a{font-size:.84rem}}"
+    },
+    {
+      "name": "Retreat invitation tag",
+      "kind": "chip",
+      "refersTo": "trip-tag",
+      "description": "A lightly rotated link layered over source photography.",
+      "html": "<a class=\"ds-tag ds-icon\" href=\"#bali\"><span>You’re invited</span><strong>Bali, May 2027</strong><span>8 days. Up to 8 women.<svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></span></a>",
+      "css": ".ds-tag{display:inline-block;background:var(--paper,#f8f4e9);color:var(--rust,#913b27);padding:20px 25px;min-width:235px;text-decoration:none;transform:rotate(3deg);box-shadow:0 8px 24px #26150f26;transition:transform .25s cubic-bezier(.2,.8,.2,1);font-family:var(--sans,\"DM Sans\",sans-serif)}.ds-tag:hover{transform:rotate(0)}.ds-tag>span{display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:.78rem}.ds-tag>span:first-child{font-family:var(--serif,\"Fraunces\",Georgia,serif);font-style:italic;font-size:1.2rem}.ds-tag strong{display:block;font:500 1.75rem/1.4 var(--serif,\"Fraunces\",Georgia,serif);padding:4px 0 8px}.ds-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex:none}:focus-visible{outline:3px solid var(--rust,#913b27);outline-offset:6px}@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}"
+    },
+    {
+      "name": "FAQ disclosure",
+      "kind": "custom",
+      "description": "Native details with a plus indicator that becomes a minus.",
+      "html": "<details class=\"ds-faq\"><summary>Questions about Bali?<span class=\"ds-plus\" aria-hidden=\"true\"></span></summary><p>Contact Alyssa to talk through the retreat.</p></details>",
+      "css": ".ds-faq{color:var(--ink,#3b382c);font:16px/1.65 var(--sans,\"DM Sans\",sans-serif);border-block:1px solid var(--line,#d6cbb9)}.ds-faq summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:1.04rem;padding:23px 0}.ds-faq summary::-webkit-details-marker{display:none}.ds-faq p{margin:0;font-size:.94rem;padding:0 28px 25px 0}.ds-plus{position:relative;width:16px;height:16px;display:block;flex:none}.ds-plus::before,.ds-plus::after{content:\"\";position:absolute;left:0;right:0;top:7px;height:1px;background:currentColor}.ds-plus::after{transform:rotate(90deg)}.ds-faq[open] .ds-plus::after{transform:rotate(0)}:focus-visible{outline:3px solid var(--rust,#913b27);outline-offset:6px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Photographic travel correspondence",
+    "overview": "This records the implemented photographic travel-correspondence direction: expressive serif headings, warm paper surfaces, personal invitations, and generous space around source photography. The photos carry the identity; navigation and practical retreat information use familiar web patterns.\n\nThis is a reversible first-draft implementation record, not a newly approved brand identity. PRODUCT.md remains the product authority; docs/first-draft-brief.md owns the page strategy. Values were extracted from site/styles.css, site/fonts.css, and scripts/build.mjs on November 4, 2026. This documentation pass did not inspect rendered pages or establish new brand commitments.\n\nSidecar tonal ramps are synthesized OKLCH panel previews, not additional implemented CSS tokens or approved palette choices. Component snippets retain CSS variable references with extracted fallback values. Text is illustrative where a snippet requires sample content.",
+    "keyCharacteristics": [
+      "Photo-led compositions with restrained colored section backgrounds.",
+      "Fraunces headings paired with readable DM Sans body text.",
+      "Mostly flat rectangular surfaces, fine dividing rules, and one lightly lifted invitation tag.",
+      "Conventional navigation, native disclosure controls, and contextual keyboard focus."
+    ],
+    "rules": [
+      {
+        "name": "The Contextual Focus Rule",
+        "body": "Use a rust outline on the light surfaces and a paper outline inside the rust closing section; retain the 3px outline and 6px offset.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do retain the existing source photography and its rights attribution.",
+      "Do preserve readable body copy, visible focus, native controls, and reduced-motion behavior.",
+      "Do carry all three responsive thresholds forward when changing components.",
+      "Do label this as a first-draft system until Alyssa reviews it."
+    ],
+    "donts": [
+      "Don't treat the MIT implementation license as permission to relicense the photos or source text.",
+      "Don't add booking, payment, newsletter, or availability states that have no implementation or verified source.",
+      "Don't replace contextual focus outlines with a single color that disappears on the rust closing section.",
+      "Don't turn these observed choices into permanent brand commitments without review."
+    ]
+  }
+}

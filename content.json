@@ -1,0 +1,164 @@
+{
+  "brand": "Wild Joy Project",
+  "host": "Alyssa Kuwana",
+  "email": "alyssakuwana@gmail.com",
+  "instagram": "https://www.instagram.com/alyssakuwana",
+  "source": "https://www.wildjoyproject.com",
+  "draft": true,
+  "home": {
+    "title": "Follow your curiosity. Find your wild joy.",
+    "intro": "Travel retreats with Alyssa Kuwana. Explore beautiful places, connect with others, and make space for the things that light you up.",
+    "invitation": "The Wild Joy Project brings together travel, self-discovery, and the joy of sharing an experience with others. An invitation to explore, to pause, to laugh, and to notice what makes you feel alive.",
+    "pillars": [
+      {
+        "title": "Explore.",
+        "text": "Follow your curiosity into new places, fresh perspectives, and moments of wonder.",
+        "image": "explore.jpg",
+        "alt": "Alyssa standing beside a waterfall"
+      },
+      {
+        "title": "Play.",
+        "text": "Make room for laughter, spontaneity, and to fully be yourself.",
+        "image": "play.jpg",
+        "alt": "Alyssa in a colorful poncho on a cobbled street"
+      },
+      {
+        "title": "Reconnect.",
+        "text": "Slow down enough to listen—to yourself, to the world around you, and to one another.",
+        "image": "reconnect.jpg",
+        "alt": "Alyssa in a boat on calm water at sunset"
+      }
+    ]
+  },
+  "retreat": {
+    "name": "Bali, a little differently.",
+    "location": "Sumberkima, Northwest Bali",
+    "dates": "May 23–30, 2027",
+    "startDate": "2027-05-23",
+    "endDate": "2027-05-30",
+    "nights": 7,
+    "maxGuests": 8,
+    "currency": "USD",
+    "subject": "Sumberkima May 2027",
+    "intro": "Ocean adventures. Meaningful connection. Time to slow down and feel fully alive. A week of exploring, playing, and reconnecting—with nature, with one another, and with yourself.",
+    "setting": "Beyond the familiar stops of Canggu, Uluwatu, and Ubud, there’s another side of Bali to get to know. Sumberkima is a coastal village in the island’s quieter northwest, where local community life, temple traditions, and a close relationship with the land and sea give the area its own distinct rhythm.",
+    "stay": "We’ll stay together at Sumberkima Hill in a beautiful five-bedroom, five-bathroom villa. With a maximum of eight women joining the retreat, there’s room for both shared moments and time to yourself.",
+    "itinerary": [
+      {
+        "date": "Sunday · May 23",
+        "title": "Arrive & settle in",
+        "text": "Transfer from Denpasar Airport and arrive at Sumberkima Hill in the afternoon. Settle into the villa, meet your fellow travelers, and share our first group dinner."
+      },
+      {
+        "date": "Monday · May 24",
+        "title": "Ground & connect",
+        "text": "Begin with morning yoga (or sleep in), breakfast, and our opening circle. Enjoy free time at the beach or pool. At 4 p.m., head out on a cycling tour of the local village and farms, then come together for dinner."
+      },
+      {
+        "date": "Tuesday · May 25",
+        "title": "Explore beneath the surface",
+        "text": "Spend the day at Menjangan snorkeling, with a scuba option for certified divers on the same boat. After lunch and a relaxed afternoon, learn canang making—the art of creating Balinese offerings—from 4–5:30 p.m., followed by dinner."
+      },
+      {
+        "date": "Wednesday · May 26",
+        "title": "Care for the coral",
+        "text": "Enjoy a slow morning before learning about coral restoration, taking part in coral planting, and snorkeling in the area. After lunch and a free afternoon, gather at the villa for a Balinese cooking class and dinner."
+      },
+      {
+        "date": "Thursday · May 27",
+        "title": "Expand your world",
+        "text": "From 8 a.m.–3 p.m., join Yoshua, an expert freediver, for a freedive/fundive day at Menjangan. You can also snorkel at the surface. Return for a relaxed afternoon and dinner. Ask Alyssa about experience requirements before booking."
+      },
+      {
+        "date": "Friday · May 28",
+        "title": "Connect to place",
+        "text": "Join an optional sunrise hike, then enjoy breakfast and jamu making at the villa. Jamu is a traditional Indonesian herbal drink. After lunch, visit Pura Pulaki temple before coming together for dinner."
+      },
+      {
+        "date": "Saturday · May 29",
+        "title": "A day at sea. A final feast.",
+        "text": "After breakfast, head out on a fishing charter. Enjoy lunch and a free afternoon before our closing circle. Celebrate the week with a catch-to-table dinner at the villa, with vegetarian and vegan options available."
+      },
+      {
+        "date": "Sunday · May 30",
+        "title": "Carry the joy home",
+        "text": "Share breakfast, say our goodbyes, and transfer to Denpasar Airport for your journey onward."
+      }
+    ],
+    "rooms": [
+      {
+        "name": "Shared room",
+        "price": 2750,
+        "image": "shared.jpg",
+        "description": "Share a room with another traveler. A welcoming place to rest between adventures."
+      },
+      {
+        "name": "Private room",
+        "price": 3350,
+        "image": "private.jpg",
+        "description": "A room to yourself. A quiet space to recharge while staying connected with the group."
+      }
+    ],
+    "included": [
+      "Seven nights in your selected room, with A/C",
+      "All scheduled retreat activities",
+      "Airport transfers to and from the retreat",
+      "Three meals a day; vegetarian and vegan options",
+      "One sauna and cold plunge session",
+      "Gratuities"
+    ],
+    "excluded": [
+      "Flights to and from Bali",
+      "Travel insurance",
+      "Passport, tourist visa, and required travel documents"
+    ],
+    "fit": [
+      "You’re excited to travel with a small group of women.",
+      "You enjoy meaningful conversations and new perspectives.",
+      "You find awe in nature and enjoy going off the beaten path.",
+      "You want a mix of exploration, play, and rest.",
+      "You’d love to enjoy the journey without planning every detail."
+    ],
+    "swimming": "You must be a competent swimmer and comfortable in open water. Several days involve boats, snorkeling, and ocean activities. This retreat isn’t suitable for non-swimmers.",
+    "faqs": [
+      {
+        "question": "Can I come on my own?",
+        "answer": "The retreat brings together a small group of women, with shared activities, meals, and space to connect. Ask Alyssa about room arrangements and any questions you have about joining on your own."
+      },
+      {
+        "question": "Do I need to be scuba certified?",
+        "answer": "Scuba diving is for certified divers. Snorkeling is also planned for the Menjangan day, with snorkelers and divers on the same boat. Please ask about experience requirements for the separate freedive/fundive day before booking."
+      },
+      {
+        "question": "I can’t swim. Can I still join?",
+        "answer": "This retreat isn’t suitable for non-swimmers. You must be a competent swimmer and comfortable in open water. If you’re unsure about your swimming ability or comfort level, reach out before booking."
+      },
+      {
+        "question": "What if I get seasick?",
+        "answer": "Several days involve boat travel and ocean activities, so this may not be the best fit if you get seasick easily. Contact Alyssa before booking to talk through the time planned on boats."
+      },
+      {
+        "question": "Can you accommodate dietary needs?",
+        "answer": "Vegetarian and vegan options are available, including at the final dinner. Let Alyssa know about your dietary needs, and discuss any food allergies before booking."
+      },
+      {
+        "question": "When should I book flights?",
+        "answer": "Wait to receive trip confirmation from Alyssa before booking flights. Confirm the final airport transfer schedule with her. Flights, insurance, and travel documents are arranged separately."
+      },
+      {
+        "question": "How do I ask about availability?",
+        "answer": "Email Alyssa with the subject Sumberkima May 2027. She can confirm current availability, prices, any offers, and the booking process. An inquiry does not reserve a room."
+      }
+    ]
+  },
+  "about": {
+    "intro": "A traveler and a guide to intuitive, joyful living. Some of my favorite moments begin with a little curiosity: a new food, a shared story, an unfamiliar path.",
+    "paragraphs": [
+      "Born in Japan and raised in the United States, I grew up between cultures. My parents encouraged my brothers and me to embrace different ways of living and discover what resonated with us.",
+      "When I turned 18, I began traveling on my own: staying in hostels, exploring with people I had just met, and leaving room for plans to change. I discovered how much I loved getting beyond the places everyone tells you to visit, tasting unfamiliar foods, and learning what makes a place feel like home to the people who live there.",
+      "I’ve now visited more than 45 countries, many of them multiple times, and lived in four countries across three continents. Along the way, travel has humbled me, challenged me, brought incredible friendships into my life, and helped me feel more confident navigating uncertainty.",
+      "Time beside the ocean, beneath the stars, and among the trees helped me find my way back to myself and trust my intuition. Little by little, I built a life that felt like my own, and I found joy in simple things: a good conversation, a shared meal, laughter with someone I love, a quiet moment outside.",
+      "Through my work with Kahākūkahi Ocean Academy (KOA), I mentor girls in programs like Riding the Waves of Life. I also guide adult women through 1:1 coaching. And now, I’m guiding women to find joy through travel and exploration."
+    ]
+  }
+}
