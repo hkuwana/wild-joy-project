@@ -55,3 +55,16 @@ Live coastal update: all 13 checked routes/assets matched the build byte-for-byt
 Limits: reduced-motion events are covered by the source harness, not a changed OS setting. Physical-device frame timing and a complete assistive-technology audit were not performed.
 
 Live notebook verification: 13 routes/assets match the build byte-for-byte, including the new CSS and brush SVG, all four pages, the three supporting photos, browser JS and calendar. Unknown route returns 404. Production browser shows the new notebook, active motion and no horizontal overflow or captured console errors. Deployment version: 9afeb4c3-7baa-4590-9903-2de4ca9258bc.
+
+## Stacking photo memories — November 7, 2026
+
+- Motion scroll module pinned and self-hosted; raw/gzip sizes 9,353/4,199 bytes. npm reported zero known vulnerabilities at installation. Normal build still requires no package installation; vendor regeneration uses the lockfile.
+- Build and 130-reference checks pass; 13 tests pass. Added tests cover assembly order/reverse/bounds, missing/failed library, reduced/off/short-screen fallback, anchor restoration, subscription cleanup/re-enable, and printing.
+- Browser captures cover desktop 1440×1000 and 1280×720, phones 390×844 and 320×740, plus 844×390 landscape fallback. Confirmed arriving and settled cards, reverse navigation, keyboard chapter link, persisted motion-off and re-enable. No horizontal overflow or captured console errors.
+- The enhanced notebook replaces its earlier photo parallax with a collecting stack; the separate hero depth effect is unchanged. Photos and factual content remain unchanged.
+- One detector scan: zero primary findings; 13 advisory type/color values, including existing notebook values. Prior stale sidecar metadata remains unchanged.
+- OS reduced-motion and library failure are tested in the source harness; physical-device frame timing and a full assistive-technology audit were not performed.
+
+Impeccable finish review: **ship** after reconciling the design documentation with whole-chapter stacking. No visual findings remained.
+
+Live memory-stack verification: 16 routes/assets matched the local build byte-for-byte, including the vendor bundle, license and controller. Unknown route returned 404. Production browser displayed the stacked cards with active transforms and route progress, no document overflow and no captured console errors. Version 6ef791fb-053d-4968-812c-69ef94e69b3d.

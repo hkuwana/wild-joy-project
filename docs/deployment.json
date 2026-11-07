@@ -1,7 +1,7 @@
 {
   "url": "https://wild-joy-project-draft.hiro-33e.workers.dev",
   "hosting": "Cloudflare Workers Static Assets; no Worker script",
-  "version_id": "9afeb4c3-7baa-4590-9903-2de4ca9258bc",
+  "version_id": "6ef791fb-053d-4968-812c-69ef94e69b3d",
   "verified_routes": [
     "/",
     "/bali2027/",
@@ -15,14 +15,17 @@
     "/assets/ocean.jpg",
     "/assets/culture.jpg",
     "/assets/slow.jpg",
-    "/bali-retreat.ics"
+    "/bali-retreat.ics",
+    "/memory-stack.js",
+    "/vendor/motion-scroll.js",
+    "/vendor/motion-LICENSE.txt"
   ],
   "unknown_route_status": 404,
   "assets": {
     "404.html": "5ca80b32ef47d2db95320feb4b854e5b80a4ee0d3c811201953d09a7ef02f4c1",
     "_headers": "4a12777e851f63067614f15cb58b07fa6f756d51b4e0b44fd6d8737185354b30",
     "about/index.html": "5a6a7a70739c58c53e4206ae1106f7c7cd9f2d6e2ca7d65a1fcfba61abcbe037",
-    "app.js": "f980e6ecdf3e790ab139fddf42f00ae5dac30cccd488c51d0106f6696132dc51",
+    "app.js": "810375952ec6a6dcbd5d65e5ec3a8251c783d7d5287d75ad19444b64af626c8a",
     "assets/alyssa.jpg": "1a300bf9889810a7d574c1b826289c031948f5ef0a5476032874b7ac626782aa",
     "assets/bali.jpg": "a3a297a737aaf585a2154402b26613454f49b8b539baee1598a572eee1f39d69",
     "assets/bree-serif.ttf": "fd080582d70112ef479ba4ddd72407f9a4fcbcec4caa7d29de259b13eeb5f431",
@@ -51,11 +54,14 @@
     "contact/index.html": "58abe9fdce2c5664dca279032927ee04b618325971c03fad11beb281de3ab004",
     "favicon.svg": "7e3609fca1375e673a254643a31b68749872eb81cab404008620d252e212062c",
     "fonts.css": "9016c1c8f68408e3e433567905d473c7a8a55460e7dc46fd51e1fd98be72f547",
-    "index.html": "d7b3a6d9002f00d26110b7bbd92cfef2915063722751d23d68f736af97877aa1",
+    "index.html": "7280231730440d3bfeb6fc69943bd726b3ea828fbb53b2819dfa6b9707ab4e2e",
     "journal.css": "b1f0c014f670ccd12ddd5162eba015c06d2088c3d8631b5e98be0c5b2e81808d",
-    "notebook.css": "35f68d8e59c1b0a93599f6b795dccebb104e127fd1a30bd7a5cef20a788ded44",
+    "memory-stack.js": "deb8d55db26fa75e3446cce93414eb146d813f61ea2b225ca195f2324d402500",
+    "notebook.css": "c28e5c537cc43120a168832c9c2e7f6b798af03fdc92ec2abf04f7e272440283",
     "robots.txt": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
-    "styles.css": "3bea9e2d902d45dc2cd1b5a17959f7a9b44c0f3c2f3e90b2badd882a4d959c39"
+    "styles.css": "3bea9e2d902d45dc2cd1b5a17959f7a9b44c0f3c2f3e90b2badd882a4d959c39",
+    "vendor/motion-LICENSE.txt": "5d714a6bb72b16fc38928a3124f4c1676414f083aadcb6c2fc63826d1a42a5c2",
+    "vendor/motion-scroll.js": "50cf40131e23bdbda5b6579e380c3458b4afa8d758761cd0d79496abe4872082"
   },
   "github_repository": "https://github.com/hkuwana/wild-joy-project",
   "content_publication": "Hiro explicitly approved including the existing public-site photographs and writing on November 4, 2026; their rights remain retained, with only the implementation MIT-licensed."

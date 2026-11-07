@@ -4,12 +4,19 @@
   "private": true,
   "description": "An independent, open-source website for Wild Joy Project.",
   "type": "module",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "build": "node scripts/build.mjs",
     "check": "node scripts/check.mjs",
-    "test": "node --test scripts/motion.test.mjs",
+    "test": "node --test scripts/*.test.mjs",
     "dev": "node scripts/build.mjs && node scripts/serve.mjs",
-    "deploy": "npm run build && npm run check && npm test && npx --yes wrangler@4.157.0 deploy"
+    "deploy": "npm run build && npm run check && npm test && npx --yes wrangler@4.157.0 deploy",
+    "vendor:motion": "node scripts/vendor-motion.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "motion": "14.10.1"
   }
 }
