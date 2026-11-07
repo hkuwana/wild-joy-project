@@ -94,6 +94,7 @@ body { overflow-x: clip; }
   .photo-print figcaption { font-size: 1.23rem; padding: 10px 4px 13px; }
   .sunset-print { top: 10px; left: 0; width: 92%; --tilt: -4deg; }
   .sunset-print .print-image { height: 300px; }
+  .sunset-print figcaption { padding-right: 38%; }
   .ocean-print { top: 238px; width: 42%; right: -1%; --tilt: 8deg; }
   .ocean-print .print-image { height: 205px; }
   .ocean-print figcaption { font-size: 1.1rem; }

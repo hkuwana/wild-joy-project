@@ -47,4 +47,17 @@ function waves(){
  for(let i=0;i<5;i++)art+=path(`M5 ${35+i*12} C55 ${4+i*12} 77 ${70+i*12} 132 ${35+i*12} S210 ${4+i*12} 260 ${35+i*12} S340 ${70+i*12} 395 ${35+i*12}`,1-i*.1,.6-i*.07);
  return svg(400,120,art);
 }
-export const illustrations={'palm-study.svg':palm(),'shell-study.svg':shell(),'sun-study.svg':sun(),'wave-study.svg':waves()};
+function brushTide(){
+ // Authored overlapping paint strokes, no noise filters or generated imagery.
+ return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 620" fill="none">
+ <g stroke-linecap="round">
+ <path d="M324 33 C211 105 371 174 255 277 S78 373 129 497 Q157 554 93 588" stroke="#91bdb0" stroke-width="57" opacity=".3"/>
+ <path d="M310 31 C207 114 352 173 245 272 S81 383 132 501 Q155 550 88 590" stroke="#71a99b" stroke-width="32" opacity=".24"/>
+ <path d="M340 29 C222 111 390 177 267 289 S98 386 145 496 Q177 552 112 595" stroke="#accbbd" stroke-width="15" opacity=".45"/>
+ <path d="M283 53 C230 123 322 185 220 280 S71 394 106 487" stroke="#477a74" stroke-width="3" opacity=".2"/>
+ <path d="M331 66 C278 139 377 190 278 271" stroke="#fff6e8" stroke-width="6" opacity=".65"/>
+ <path d="M118 352 Q68 413 103 463" stroke="#fff6e8" stroke-width="4" opacity=".7"/>
+ <path d="M247 112 Q210 130 236 160" stroke="#f4b8a4" stroke-width="13" opacity=".55"/>
+ </g></svg>`;
+}
+export const illustrations={'palm-study.svg':palm(),'shell-study.svg':shell(),'sun-study.svg':sun(),'wave-study.svg':waves(),'brush-tide.svg':brushTide()};

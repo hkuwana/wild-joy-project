@@ -1,0 +1,94 @@
+/* A real-photo notebook: left-hand contents, right-hand travel chapters. */
+.notebook-section { padding: 70px var(--gutter) 38px; background: var(--olive); }
+.notebook-spread { position: relative; display: grid; grid-template-columns: 40% 60%; max-width: 1320px; margin: auto; background: #fffdf5; box-shadow: 0 15px 45px #203f4314; }
+.notebook-spread::before { content: ''; position: absolute; top: 0; bottom: 0; left: 40%; width: 18px; transform: translateX(-50%); background: linear-gradient(90deg,transparent,#203f430c,transparent); pointer-events: none; }
+.book-index { align-self: start; padding: 62px 13% 35px; position: relative; }
+html[data-motion=on] .book-index { position: sticky; top: 24px; }
+.book-index h2 { font-size: clamp(2.3rem,3.3vw,3.4rem); line-height: 1.05; }
+.book-index h2 em { font-size: 1.22em; color: var(--hibiscus); }
+.book-index>p { margin-top: 24px; font-size: .9rem; }
+.chapter-map { position: relative; height: 285px; max-width: 300px; margin: 20px 0 12px; }
+.chapter-map>svg { position: absolute; width: 100%; height: 100%; stroke-width: 2; overflow: visible; }
+.route-base { stroke: #aac1b7; stroke-dasharray: 2 7; }
+.route-ink { stroke: var(--hibiscus); stroke-width: 2.5; stroke-dasharray: 1; stroke-dashoffset: calc(1 - var(--route-progress,1)); }
+.map-stop { position: absolute; display: inline-flex; align-items: center; gap: 10px; min-height: 44px; padding: 2px 12px 2px 0; color: var(--forest); background: #fffdf5; text-decoration: none; font: 500 1.65rem/1 var(--hand); }
+.map-stop:hover { color: var(--hibiscus); text-decoration: underline; text-underline-offset: 5px; }
+.map-stop-0 { top: 13px; left: 10%; }
+.map-stop-1 { top: 117px; left: 50%; }
+.map-stop-2 { top: 228px; left: 22%; }
+.map-dot { width: 10px; height: 10px; border: 2px solid var(--hibiscus); border-radius: 50%; background: #fffdf5; }
+.book-inscription { display: block; font: 500 1.35rem/1.2 var(--hand); color: var(--hibiscus); transform: rotate(-4deg); }
+.book-shell { width: 115px; bottom: 10px; right: 12px; opacity: .3; }
+.book-pages { min-width: 0; padding: 30px 0 10px; }
+.chapter-page { position: relative; padding: 65px 12% 45px 10%; scroll-margin-top: 25px; }
+.chapter-pictures { position: relative; padding: 15px 0 40px; }
+.chapter-print { position: relative; z-index: 1; --tilt: -3deg; background: #fffdf5; padding: 10px 10px 0; box-shadow: 3px 12px 28px #203f4326; }
+.chapter-print>img { width: 100%; height: 425px; object-fit: cover; }
+.chapter-print figcaption { font: 500 1.4rem/1.25 var(--hand); color: var(--hibiscus); padding: 12px 30% 16px 7px; }
+.margin-print { position: absolute; right: -17%; bottom: -6px; width: 34%; z-index: 2; --tilt: 8deg; padding: 6px 6px 0; background: #fffdf5; box-shadow: 2px 10px 23px #203f4321; }
+.margin-print>img { height: 150px; width: 100%; object-fit: cover; }
+.margin-print figcaption { font: 500 1.05rem/1.15 var(--hand); padding: 7px 2px 10px; color: var(--forest); }
+.brush-mark { position: absolute; z-index: 0; height: 115%; width: 70%; left: -31%; top: -38px; pointer-events: none; object-fit: contain; }
+.chapter-page-1 .chapter-print { --tilt: 3deg; }
+.chapter-page-1 .brush-mark { left: auto; right: -27%; --tilt: 180deg; }
+.chapter-page-1 .margin-print { --tilt: -8deg; }
+.chapter-page-2 .chapter-print { --tilt: -2deg; }
+.chapter-copy { position: relative; z-index: 3; padding: 5px 12% 22px 4%; }
+.chapter-copy h3 { font: 500 3.2rem/1.05 var(--hand); color: var(--hibiscus); margin-bottom: 12px; }
+.chapter-copy p { max-width: 37ch; font-size: 1rem; }
+.page-number { display: block; margin-top: 30px; color: var(--forest); font-size: .75rem; }
+.notebook-end { text-align: center; max-width: none; margin-top: 32px; font: 500 1.7rem/1.3 var(--hand); color: var(--forest); }
+@media(min-width:761px) and (min-height:620px) and (max-height:820px) {
+  .book-index { padding: 28px 10%; }
+  .book-index h2 { font-size: 2.5rem; }
+  .book-index>p { margin-top: 14px; }
+  .book-inscription,.book-shell { display: none; }
+}
+@media(min-width:761px) and (max-height:619px) {
+  html[data-motion=on] .book-index { position: relative; top: auto; }
+}
+@media(max-width:1100px) {
+  .notebook-section { padding-inline: 4vw; }
+  .book-index { padding: 50px 10% 30px; }
+  .chapter-print>img { height: 350px; }
+  .margin-print>img { height: 120px; }
+  .chapter-map { margin-top: 12px; }
+}
+@media(max-width:760px) {
+  .notebook-section { padding: 35px 16px 28px; }
+  .notebook-spread { display: block; }
+  .notebook-spread::before { display: none; }
+  html[data-motion=on] .book-index,.book-index { position: relative; top: auto; padding: 35px 25px 20px; }
+  .book-index h2 { font-size: 2.8rem; }
+  .book-index h2 br { display: none; }
+  .book-index h2 em { display: block; }
+  .book-index>p { margin-top: 16px; }
+  .chapter-map { height: auto; display: flex; flex-wrap: wrap; gap: 10px 15px; max-width: none; margin: 20px 0 0; }
+  .chapter-map>svg,.book-inscription,.book-shell { display: none; }
+  .map-stop { position: static; font-size: 1.35rem; padding-right: 0; gap: 6px; }
+  .map-dot { width: 7px; height: 7px; border-width: 1px; }
+  .book-pages { padding-top: 0; }
+  .chapter-page { padding: 35px 27px 20px; overflow: clip; }
+  .chapter-print { padding: 7px 7px 0; }
+  .chapter-print>img { height: clamp(280px,75vw,430px); }
+  .chapter-print figcaption { font-size: 1.2rem; padding: 10px 36% 12px 3px; }
+  .chapter-pictures { padding-bottom: 90px; }
+  .margin-print { width: 39%; right: -13px; bottom: 5px; }
+  .margin-print>img { height: 105px; }
+  .margin-print figcaption { font-size: .95rem; }
+  .chapter-copy { padding: 0 5px 15px; }
+  .chapter-copy h3 { font-size: 2.7rem; }
+  .page-number { margin-top: 20px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  html[data-motion=on] .book-index { position: relative; top: auto; }
+  .route-ink { stroke-dashoffset: 0; }
+}
+@media print {
+  .notebook-section { padding: 0; background: white; }
+  .notebook-spread { display: block; box-shadow: none; }
+  .book-index { position: static !important; padding: 20px 0; }
+  .chapter-map,.brush-mark,.margin-print,.notebook-spread::before,.book-inscription { display: none; }
+  .chapter-page { break-inside: avoid; padding: 15px 0; }
+  .chapter-print>img { height: 240px; }
+}
