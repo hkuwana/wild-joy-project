@@ -51,7 +51,7 @@ function renderDepth() {
   });
   const journeyRect = journey?.getBoundingClientRect();
   const routeProgress = journeyRect ? Math.max(0, Math.min(1, (height * .5 - journeyRect.top) / Math.max(1, journeyRect.height - height * .5))) : 1;
-  if (journey) journey.style.setProperty('--route-progress', routeProgress.toFixed(4));
+  if (journey && document.documentElement.dataset.stack !== 'on') journey.style.setProperty('--route-progress', routeProgress.toFixed(4));
   positions.forEach(({layers,visible,progress}) => {
     if (!visible) return;
     layers.forEach(({element,depth}) => element.style.setProperty('--parallax-y', `${(progress * depth * strength).toFixed(2)}px`));

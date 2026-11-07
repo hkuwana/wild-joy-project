@@ -5,7 +5,7 @@
 A first-draft website for Alyssa Kuwana’s travel retreats: playful Bree Serif and
 handwritten typography, an ocean–sand–hibiscus palette,
 original photography, pencil-style SVG studies, an animated travel notebook,
-upward parallax photo prints and original brush strokes,
+scroll-linked stacks of real photo memories and original brush strokes,
 a readable Bali guide, and straightforward inquiries.
 
 **The implementation is open source (MIT). Original photographs, branding, and
@@ -39,7 +39,8 @@ server functions, external font services, analytics, or paid website builder.
 - **Colors, spacing, type and mobile layout:** edit `site/styles.css`, `site/journal.css`, and `site/notebook.css`.
 - **Page layout and shared copy:** edit `scripts/build.mjs`.
 - **Photos:** replace matching files in `site/assets/`; update `docs/assets.json` for provenance.
-- **Photo viewer, printing, and motion behavior:** edit `site/app.js`.
+- **Photo viewer, printing, and parallax:** edit `site/app.js`.
+- **Stacking photo memories:** edit `site/memory-stack.js` and `site/notebook.css`.
 - **Original pencil-style drawings and brush strokes:** edit `scripts/illustrations.mjs`; the build writes SVGs into `dist/assets/`.
 
 In GitHub, open the file, click the pencil, edit, and commit. A commit only updates
@@ -52,10 +53,32 @@ or store inquiries. Calendar downloads save tentative dates, not a booking.
 Decorative motion follows scrolling, with smaller movement on phones. The header
 control remembers the visitor’s choice. System reduced-motion settings turn the
 parallax off; all content remains visible without JavaScript. The homepage notebook
-contains three real-photo chapters, a route that draws with reading progress,
-and a compact contents list on phones.
+contains three real-photo chapters that settle onto each other as you scroll.
+The contents route marks the current chapter; scrolling back unpacks the stack.
+Short screens, motion off, and reduced motion use the flowing notebook.
 
-![Travel notebook chapter](docs/notebook-preview.png)
+![Stacking photo memories](docs/memory-stack-preview.png)
+
+## Small, self-hosted animation library
+
+The homepage uses only Motion’s scroll module (14.10.1), bundled locally at
+`site/vendor/motion-scroll.js`: 9,353 bytes raw, 4,199 bytes gzip. There are no
+external CDN requests or React dependency in the site. The MIT notices are kept
+beside the bundle. If the library fails to load, all chapters remain readable.
+
+The checked-in bundle keeps normal builds dependency-free. Maintainers only need
+the pinned development packages to regenerate it:
+
+```sh
+npm ci
+npm run vendor:motion
+npm run build
+npm run check
+npm test
+```
+
+The vendor script and lockfile make that build reproducible. See
+[Motion’s scroll documentation](https://motion.dev/docs/scroll).
 
 ## Free Cloudflare hosting
 
