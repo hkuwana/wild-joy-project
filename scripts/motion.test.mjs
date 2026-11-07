@@ -4,21 +4,23 @@ import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
 
 const source=readFileSync(new URL('../site/app.js',import.meta.url),'utf8');
-function harness({reduced=false,saved=null,storageBlocked=false,width=1440}={}) {
+function harness({reduced=false,saved=null,storageBlocked=false,width=1440,depth=120,withJourney=false}={}) {
   const events={}, documentEvents={}, frames=new Map(), offsets=new Map();
   const attributes={}, label={}, root={dataset:{}}, media={matches:reduced};
   let nextFrame=0;
-  const layer={dataset:{depth:'120'},style:{setProperty:(k,v)=>offsets.set(k,v),removeProperty:k=>offsets.delete(k)}};
+  const layer={dataset:{depth:String(depth)},style:{setProperty:(k,v)=>offsets.set(k,v),removeProperty:k=>offsets.delete(k)}};
   const rect={top:0,bottom:900,height:900};
   const scene={querySelectorAll:()=>[layer],getBoundingClientRect:()=>rect};
   const button={setAttribute:(k,v)=>{attributes[k]=v;},querySelector:()=>label,addEventListener:(name,fn)=>{button[name]=fn;}};
-  const document={hidden:false,documentElement:root,querySelector:s=>s==='.motion-control'?button:null,querySelectorAll:s=>s==='[data-parallax-scene]'?[scene]:[],addEventListener:(name,fn)=>{documentEvents[name]=fn;}};
+  const routeValues=new Map(),journeyRect={top:800,height:2400};
+  const journey={getBoundingClientRect:()=>journeyRect,style:{setProperty:(k,v)=>routeValues.set(k,v),removeProperty:k=>routeValues.delete(k)}};
+  const document={hidden:false,documentElement:root,querySelector:s=>s==='.motion-control'?button:s==='[data-journey]'&&withJourney?journey:null,querySelectorAll:s=>s==='[data-parallax-scene]'?[scene]:[],addEventListener:(name,fn)=>{documentEvents[name]=fn;}};
   const window={innerWidth:width,innerHeight:1000,matchMedia:()=>media,addEventListener:(name,fn)=>{events[name]=fn;}};
   media.addEventListener=(name,fn)=>{media[name]=fn;};
   const storage={value:saved,getItem(){if(storageBlocked)throw Error('Unavailable');return this.value;},setItem(k,v){if(storageBlocked)throw Error('Unavailable');this.value=v;}};
   vm.runInNewContext(source,{document,window,localStorage:storage,requestAnimationFrame:fn=>{const id=++nextFrame;frames.set(id,fn);return id;},cancelAnimationFrame:id=>frames.delete(id)});
   const flush=()=>{const pending=[...frames.values()];frames.clear();pending.forEach(fn=>fn());};
-  return {events,documentEvents,frames,offsets,root,media,rect,button,attributes,label,storage,document,flush};
+  return {events,documentEvents,frames,offsets,root,media,rect,button,attributes,label,storage,document,flush,routeValues,journeyRect};
 }
 test('system reduced motion disables depth before any animation frame',()=>{
   const h=harness({reduced:true});
@@ -49,4 +51,18 @@ test('phone displacement is smaller and offscreen scenes are not updated',()=>{
   const desktop=harness(),mobile=harness({width:390});desktop.flush();mobile.flush();
   assert.ok(Math.abs(parseFloat(mobile.offsets.get('--parallax-y')))<Math.abs(parseFloat(desktop.offsets.get('--parallax-y'))));
   const before=mobile.offsets.get('--parallax-y');mobile.rect.top=1400;mobile.rect.bottom=2300;mobile.events.scroll();mobile.flush();assert.equal(mobile.offsets.get('--parallax-y'),before);
+});
+
+test('negative depth moves photos upwards as the visitor scrolls down',()=>{
+  const h=harness({depth:-310});h.flush();const before=parseFloat(h.offsets.get('--parallax-y'));
+  h.rect.top=-450;h.rect.bottom=450;h.events.scroll();h.flush();
+  assert.ok(parseFloat(h.offsets.get('--parallax-y'))<before);
+  assert.ok(Math.abs(parseFloat(h.offsets.get('--parallax-y')))<=201.5);
+});
+test('notebook route follows reading progress and is fully static when motion is off',()=>{
+  const h=harness({withJourney:true});h.flush();assert.equal(h.routeValues.get('--route-progress'),'0.0000');
+  h.journeyRect.top=-600;h.events.scroll();h.flush();const halfway=Number(h.routeValues.get('--route-progress'));assert.ok(halfway>0&&halfway<1);
+  h.journeyRect.top=-2500;h.events.scroll();h.flush();assert.equal(h.routeValues.get('--route-progress'),'1.0000');
+  h.button.click();assert.equal(h.routeValues.size,0);assert.equal(h.offsets.size,0);
+  const reduced=harness({withJourney:true,reduced:true});assert.equal(reduced.frames.size,0);assert.equal(reduced.routeValues.size,0);
 });

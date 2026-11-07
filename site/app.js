@@ -34,6 +34,7 @@ const motionScenes = [...document.querySelectorAll('[data-parallax-scene]')].map
   scene,
   layers: [...scene.querySelectorAll('[data-depth]')].map(element => ({ element, depth: Number(element.dataset.depth) || 0 }))
 }));
+const journey = document.querySelector('[data-journey]');
 let motionFrame = 0;
 let motionEnabled = false;
 function renderDepth() {
@@ -48,6 +49,9 @@ function renderDepth() {
     const progress = Math.max(-.65, Math.min(.65, (height / 2 - rect.top - rect.height / 2) / (height + rect.height)));
     return { layers, visible, progress };
   });
+  const journeyRect = journey?.getBoundingClientRect();
+  const routeProgress = journeyRect ? Math.max(0, Math.min(1, (height * .5 - journeyRect.top) / Math.max(1, journeyRect.height - height * .5))) : 1;
+  if (journey) journey.style.setProperty('--route-progress', routeProgress.toFixed(4));
   positions.forEach(({layers,visible,progress}) => {
     if (!visible) return;
     layers.forEach(({element,depth}) => element.style.setProperty('--parallax-y', `${(progress * depth * strength).toFixed(2)}px`));
@@ -69,6 +73,7 @@ function syncMotion() {
   if (!motionEnabled) {
     cancelAnimationFrame(motionFrame);
     motionFrame = 0;
+    journey?.style.removeProperty('--route-progress');
     motionScenes.forEach(({layers}) => layers.forEach(({element}) => element.style.removeProperty('--parallax-y')));
   } else requestDepth();
 }

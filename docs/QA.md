@@ -42,3 +42,16 @@ are applied under the production CSP, and the live motion toggle clears them.
 - No physical-device or complete assistive-technology audit performed. The existing motion implementation is unchanged.
 
 Live coastal update: all 13 checked routes/assets matched the build byte-for-byte; unknown route returned 404. Current in-app view at 734px renders Bree Serif and teal correctly with no horizontal overflow or captured console errors.
+
+## Travel notebook and upward motion — November 7, 2026
+
+- Build/check pass: five HTML documents, 128 internal references; eight behavioral motion tests pass. New cases verify upward displacement and route progress/reset alongside reduced-motion, persistence and scheduler behavior.
+- Notebook browser review at 1440×1000, 1280×720, 390×844 and 320×740: no document overflow; readable captions and stationary chapter copy. Compact desktop index stays visible; mobile stacks the pages.
+- Browser-observed first-chapter offsets changed from +1.50/+4.50/+7.75px to −26.31/−78.92/−135.91px while advancing to Play; route progress changed from 0.2104 to 0.5850. Motion off clears all offsets and route progress, and persists after reload.
+- Desktop and mobile hero reviewed; mobile sunset caption now reserves space beside the foreground photograph. No captured browser console errors.
+- Impeccable finish review: disposition **ship** for notebook; supplemental hero caption finding fixed and reviewed **ship**. One detector pass: no primary findings, seven advisory notebook type/color values. Existing stale design sidecar metadata was reported and left unchanged.
+- Original retreat facts in content.json unchanged. All additional photos were already present with retained rights. No external runtime dependency added.
+
+Limits: reduced-motion events are covered by the source harness, not a changed OS setting. Physical-device frame timing and a complete assistive-technology audit were not performed.
+
+Live notebook verification: 13 routes/assets match the build byte-for-byte, including the new CSS and brush SVG, all four pages, the three supporting photos, browser JS and calendar. Unknown route returns 404. Production browser shows the new notebook, active motion and no horizontal overflow or captured console errors. Deployment version: 9afeb4c3-7baa-4590-9903-2de4ca9258bc.
